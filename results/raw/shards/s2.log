@@ -1,0 +1,3 @@
+matrix: 132 requests · 3 models · 44 per model
+budget: $8.00 · concurrency: 8
+completed=132 skipped=0 failed=0 spent=$0.5375 stopped_for_budget=False

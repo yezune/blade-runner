@@ -1,0 +1,4 @@
+matrix: 132 requests · 3 models · 44 per model
+budget: $8.00 · concurrency: 8
+completed=130 skipped=0 failed=2 spent=$0.1294 stopped_for_budget=False
+failed keys: ['stepfun/step-5-preview|scale|B2|zh|0', 'stepfun/step-5-preview|scale|B2|zh|1']

@@ -1,0 +1,26 @@
+# 실행 파라미터 / Run parameters
+version: 1
+
+sampling:
+  temperature_open: 0.8      # 개방형 문항: 다양성 확보
+  temperature_scale: 0.2     # 리커트: 측정 안정성
+  top_p: 0.95
+  samples_open: 3            # 문항×모델×언어당 반복
+  samples_scale: 2           # 검사-재검사 신뢰도
+  max_tokens_open: 6000
+  max_tokens_scale: 3000
+  seed: 20261110
+
+runtime:
+  concurrency: 6
+  request_timeout_s: 180
+  max_retries: 3
+  backoff_base_s: 2.0
+  budget_usd: 8.0            # 초과 시 신규 요청 중단(부분 결과 보존)
+
+judging:
+  model: mistralai/mistral-large-4-0  # 표본(통제군) 겸임 — 한계에 명시. 403/429 회피
+  second_model: aion-labs/aion-3.5  # 비표본 2차 심판
+  reliability_sample_rate: 0.15
+  temperature: 0.0
+  max_tokens: 6000

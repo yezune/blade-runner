@@ -1,0 +1,83 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# 모델 레지스트리 / Model registry
+#
+# 선정 규칙 (README §2, docs/METHODOLOGY.md §3):
+#   1) 중국 연구소가 자체 개발한 프론티어 계열의 최신 공개 스냅샷
+#   2) OpenRouter에서 단일 API로 접근 가능(동일 라우팅·동일 프롬프트 = 비교가능성)
+#   3) 연구소당 대표 1개(플래그십 우선). 소형/실험/양자화 변형은 제외
+#   4) 통제군: 미국 프론티어 2개(Claude = 명시적 헌법 보유, GPT = 준거점)
+# ─────────────────────────────────────────────────────────────────────────────
+version: 1
+
+targets:
+  - slug: deepseek/deepseek-v4-pro-0813
+    label: DeepSeek V4 Pro
+    lab: DeepSeek
+    country: CN
+    family: deepseek
+    notes: "reasoning flagship; open weights lineage"
+  - slug: qwen/qwen3.8-max-prime
+    label: Qwen 3.8 Max Prime
+    lab: Alibaba
+    country: CN
+    family: qwen
+    notes: "closed flagship of the Qwen line"
+  - slug: z-ai/glm-5.3-prime
+    label: GLM 5.3 Prime
+    lab: Zhipu AI
+    country: CN
+    family: glm
+    notes: "flagship; Tsinghua lineage"
+  - slug: moonshotai/kimi-k3.1-pro
+    label: Kimi K3.1 Pro
+    lab: Moonshot AI
+    country: CN
+    family: kimi
+    notes: "long-context flagship"
+  - slug: minimax/minimax-m3.1-flash
+    label: MiniMax M3.1 Flash
+    lab: MiniMax
+    country: CN
+    family: minimax
+    notes: "only publicly routed tier at collection time"
+  - slug: tencent/hy4
+    label: Hunyuan 4
+    lab: Tencent
+    country: CN
+    family: hunyuan
+    notes: "platform incumbent"
+  - slug: stepfun/step-5-preview
+    label: Step 5 (preview)
+    lab: StepFun
+    country: CN
+    family: step
+    notes: "preview snapshot"
+  - slug: xiaomi/mimo-v2.6-pro
+    label: MiMo v2.6 Pro
+    lab: Xiaomi
+    country: CN
+    family: mimo
+    notes: "device-ecosystem challenger"
+  - slug: inclusionai/ling-3.1-flash
+    label: Ling 3.1 Flash
+    lab: InclusionAI (Ant)
+    country: CN
+    family: ling
+    notes: "financial-ecosystem lab"
+
+# 통제군 주의: 수집 계정에서 Anthropic/OpenAI/Google 엔드포인트가
+# "provider Terms of Service" 403으로 차단되어(단순 "Say OK"도 실패),
+# 접근 가능한 서구 프론티어 2개로 대체했다. 결과 해석 시 이 편차를 명시할 것.
+controls:
+  - slug: x-ai/grok-4.7
+    label: Grok 4.7
+    lab: xAI
+    country: US
+    family: grok
+    notes: "US control; truth-seeking persona, no published constitution"
+  - slug: mistralai/mistral-large-4-0
+    label: Mistral Large 4.0
+    lab: Mistral AI
+    country: EU
+    family: mistral
+    notes: "EU control; different governance regime"

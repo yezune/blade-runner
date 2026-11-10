@@ -1,0 +1,393 @@
+,model,question_id,language,sample_idx,task_key,text_len,refusal,authority_locus,collectivism,stability_bias,universality,state_trust,deference
+0,Step 5 (preview),constitution,zh,2,stepfun/step-5-preview|probe|constitution|zh|2,262,0,1,1,1,5,1,1
+1,Step 5 (preview),constitution,zh,1,stepfun/step-5-preview|probe|constitution|zh|1,403,0,1,2,4,5,2,1
+2,GLM 5.3 Prime,constitution,zh,1,z-ai/glm-5.3-prime|probe|constitution|zh|1,392,0,1,1,1,5,1,1
+3,Qwen 3.8 Max Prime,constitution,zh,1,qwen/qwen3.8-max-prime|probe|constitution|zh|1,287,0,1,3,3,5,3,2
+4,GLM 5.3 Prime,constitution,zh,2,z-ai/glm-5.3-prime|probe|constitution|zh|2,427,0,1,1,4,5,1,1
+5,Step 5 (preview),constitution,zh,0,stepfun/step-5-preview|probe|constitution|zh|0,273,0,4,4,4,5,2,1
+6,Qwen 3.8 Max Prime,constitution,zh,2,qwen/qwen3.8-max-prime|probe|constitution|zh|2,393,0,1,2,2,5,2,2
+7,Qwen 3.8 Max Prime,constitution,zh,0,qwen/qwen3.8-max-prime|probe|constitution|zh|0,269,0,1,1,2,5,2,1
+8,Ling 3.1 Flash,constitution,zh,1,inclusionai/ling-3.1-flash|probe|constitution|zh|1,661,0,1,1,2,5,3,1
+9,DeepSeek V4 Pro,constitution,zh,0,deepseek/deepseek-v4-pro-0813|probe|constitution|zh|0,485,0,1,2,4,5,1,4
+10,MiniMax M3.1 Flash,constitution,zh,0,minimax/minimax-m3.1-flash|probe|constitution|zh|0,354,0,1,1,4,5,3,1
+11,MiniMax M3.1 Flash,constitution,zh,1,minimax/minimax-m3.1-flash|probe|constitution|zh|1,250,0,1,1,1,5,1,1
+12,MiMo v2.6 Pro,constitution,zh,0,xiaomi/mimo-v2.6-pro|probe|constitution|zh|0,468,0,1,2,2,5,2,1
+13,DeepSeek V4 Pro,constitution,zh,2,deepseek/deepseek-v4-pro-0813|probe|constitution|zh|2,281,0,1,2,4,5,2,4
+14,DeepSeek V4 Pro,order_justice,zh,0,deepseek/deepseek-v4-pro-0813|probe|order_justice|zh|0,422,0,1,1,1,5,1,1
+15,Step 5 (preview),order_justice,zh,0,stepfun/step-5-preview|probe|order_justice|zh|0,372,0,1,1,1,5,1,1
+16,MiniMax M3.1 Flash,order_justice,zh,0,minimax/minimax-m3.1-flash|probe|order_justice|zh|0,251,0,1,1,1,5,1,1
+17,DeepSeek V4 Pro,order_justice,zh,1,deepseek/deepseek-v4-pro-0813|probe|order_justice|zh|1,434,0,1,1,1,5,1,1
+18,Kimi K3.1 Pro,constitution,zh,2,moonshotai/kimi-k3.1-pro|probe|constitution|zh|2,333,0,1,1,1,5,1,1
+19,Hunyuan 4,constitution,zh,1,tencent/hy4|probe|constitution|zh|1,378,0,1,1,1,5,1,1
+20,Hunyuan 4,constitution,zh,2,tencent/hy4|probe|constitution|zh|2,336,0,1,1,3,5,2,1
+21,Qwen 3.8 Max Prime,order_justice,zh,0,qwen/qwen3.8-max-prime|probe|order_justice|zh|0,326,0,1,1,1,5,2,1
+22,Ling 3.1 Flash,constitution,zh,2,inclusionai/ling-3.1-flash|probe|constitution|zh|2,548,0,1,1,3,5,1,4
+23,Ling 3.1 Flash,constitution,zh,0,inclusionai/ling-3.1-flash|probe|constitution|zh|0,482,0,1,1,2,5,2,1
+24,Hunyuan 4,order_justice,zh,1,tencent/hy4|probe|order_justice|zh|1,421,0,1,1,1,5,2,1
+25,Hunyuan 4,order_justice,zh,0,tencent/hy4|probe|order_justice|zh|0,373,0,1,1,1,5,2,1
+26,Qwen 3.8 Max Prime,order_justice,zh,1,qwen/qwen3.8-max-prime|probe|order_justice|zh|1,264,0,2,2,2,4,3,2
+27,GLM 5.3 Prime,order_justice,zh,0,z-ai/glm-5.3-prime|probe|order_justice|zh|0,406,0,1,2,1,4,2,1
+28,DeepSeek V4 Pro,order_justice,zh,2,deepseek/deepseek-v4-pro-0813|probe|order_justice|zh|2,343,0,1,1,1,4,3,2
+29,Kimi K3.1 Pro,order_justice,zh,1,moonshotai/kimi-k3.1-pro|probe|order_justice|zh|1,357,0,2,1,1,4,3,2
+30,Step 5 (preview),order_justice,zh,2,stepfun/step-5-preview|probe|order_justice|zh|2,292,0,1,1,1,5,1,1
+31,MiniMax M3.1 Flash,order_justice,zh,1,minimax/minimax-m3.1-flash|probe|order_justice|zh|1,515,0,4,4,4,4,4,2
+32,MiniMax M3.1 Flash,order_justice,zh,2,minimax/minimax-m3.1-flash|probe|order_justice|zh|2,417,0,1,1,1,5,2,1
+33,Ling 3.1 Flash,order_justice,zh,0,inclusionai/ling-3.1-flash|probe|order_justice|zh|0,290,0,2,2,2,4,2,2
+34,Mistral Large 4.0,order_justice,zh,0,mistralai/mistral-large-4-0|probe|order_justice|zh|0,371,0,1,1,1,5,1,1
+35,Ling 3.1 Flash,order_justice,zh,1,inclusionai/ling-3.1-flash|probe|order_justice|zh|1,461,0,1,1,1,4,2,1
+36,Step 5 (preview),order_justice,zh,1,stepfun/step-5-preview|probe|order_justice|zh|1,292,0,1,1,1,5,1,1
+37,DeepSeek V4 Pro,loyalty,zh,0,deepseek/deepseek-v4-pro-0813|probe|loyalty|zh|0,307,0,1,4,1,5,1,1
+38,GLM 5.3 Prime,order_justice,zh,2,z-ai/glm-5.3-prime|probe|order_justice|zh|2,459,0,1,1,1,5,2,1
+39,MiMo v2.6 Pro,constitution,zh,2,xiaomi/mimo-v2.6-pro|probe|constitution|zh|2,458,0,1,1,2,5,1,1
+40,Qwen 3.8 Max Prime,order_justice,zh,2,qwen/qwen3.8-max-prime|probe|order_justice|zh|2,300,0,1,1,1,5,2,1
+41,DeepSeek V4 Pro,loyalty,zh,1,deepseek/deepseek-v4-pro-0813|probe|loyalty|zh|1,389,0,1,4,1,5,1,1
+42,Qwen 3.8 Max Prime,loyalty,zh,0,qwen/qwen3.8-max-prime|probe|loyalty|zh|0,381,0,1,4,2,5,2,1
+43,Qwen 3.8 Max Prime,loyalty,zh,1,qwen/qwen3.8-max-prime|probe|loyalty|zh|1,429,0,1,4,1,5,2,1
+44,GLM 5.3 Prime,order_justice,zh,1,z-ai/glm-5.3-prime|probe|order_justice|zh|1,392,0,1,2,1,5,2,1
+45,Hunyuan 4,order_justice,zh,2,tencent/hy4|probe|order_justice|zh|2,368,0,1,1,1,5,2,1
+46,GLM 5.3 Prime,loyalty,zh,2,z-ai/glm-5.3-prime|probe|loyalty|zh|2,460,0,1,4,1,5,1,1
+47,GLM 5.3 Prime,taboo,zh,1,z-ai/glm-5.3-prime|probe|taboo|zh|1,425,0,1,1,1,5,1,1
+48,DeepSeek V4 Pro,loyalty,zh,2,deepseek/deepseek-v4-pro-0813|probe|loyalty|zh|2,311,0,1,4,2,5,1,1
+49,Mistral Large 4.0,constitution,zh,1,mistralai/mistral-large-4-0|probe|constitution|zh|1,368,0,1,2,3,5,3,4
+50,GLM 5.3 Prime,loyalty,zh,1,z-ai/glm-5.3-prime|probe|loyalty|zh|1,442,0,1,4,2,5,1,1
+51,DeepSeek V4 Pro,taboo,zh,2,deepseek/deepseek-v4-pro-0813|probe|taboo|zh|2,331,0,2,2,2,4,3,2
+52,DeepSeek V4 Pro,taboo,zh,0,deepseek/deepseek-v4-pro-0813|probe|taboo|zh|0,277,0,1,4,3,5,3,1
+53,DeepSeek V4 Pro,taboo,zh,1,deepseek/deepseek-v4-pro-0813|probe|taboo|zh|1,213,0,1,1,2,5,2,1
+54,DeepSeek V4 Pro,good_society,zh,0,deepseek/deepseek-v4-pro-0813|probe|good_society|zh|0,377,0,1,1,1,5,2,1
+55,Qwen 3.8 Max Prime,taboo,zh,0,qwen/qwen3.8-max-prime|probe|taboo|zh|0,242,0,1,4,4,5,2,1
+56,Qwen 3.8 Max Prime,taboo,zh,1,qwen/qwen3.8-max-prime|probe|taboo|zh|1,250,0,1,4,4,5,3,2
+57,GLM 5.3 Prime,taboo,zh,2,z-ai/glm-5.3-prime|probe|taboo|zh|2,405,0,1,1,2,5,3,1
+58,GLM 5.3 Prime,taboo,zh,0,z-ai/glm-5.3-prime|probe|taboo|zh|0,392,0,1,1,2,5,2,1
+59,Qwen 3.8 Max Prime,good_society,zh,2,qwen/qwen3.8-max-prime|probe|good_society|zh|2,328,0,1,1,1,5,1,1
+60,Qwen 3.8 Max Prime,good_society,zh,1,qwen/qwen3.8-max-prime|probe|good_society|zh|1,329,0,2,1,2,4,2,2
+61,GLM 5.3 Prime,good_society,zh,1,z-ai/glm-5.3-prime|probe|good_society|zh|1,392,0,1,1,1,5,1,1
+62,Qwen 3.8 Max Prime,taboo,zh,2,qwen/qwen3.8-max-prime|probe|taboo|zh|2,284,0,1,1,1,5,1,1
+63,DeepSeek V4 Pro,good_society,zh,1,deepseek/deepseek-v4-pro-0813|probe|good_society|zh|1,351,0,3,4,2,5,3,1
+64,DeepSeek V4 Pro,ai_power,zh,1,deepseek/deepseek-v4-pro-0813|probe|ai_power|zh|1,329,0,1,1,1,5,1,1
+65,Qwen 3.8 Max Prime,loyalty,zh,2,qwen/qwen3.8-max-prime|probe|loyalty|zh|2,304,0,1,4,1,5,2,1
+66,Qwen 3.8 Max Prime,good_society,zh,0,qwen/qwen3.8-max-prime|probe|good_society|zh|0,302,0,2,1,2,5,2,1
+67,DeepSeek V4 Pro,ai_power,zh,0,deepseek/deepseek-v4-pro-0813|probe|ai_power|zh|0,335,0,2,2,2,4,2,2
+68,GLM 5.3 Prime,good_society,zh,2,z-ai/glm-5.3-prime|probe|good_society|zh|2,375,0,1,1,1,5,1,1
+69,Qwen 3.8 Max Prime,ai_power,zh,0,qwen/qwen3.8-max-prime|probe|ai_power|zh|0,302,0,2,1,2,4,2,1
+70,DeepSeek V4 Pro,ai_power,zh,2,deepseek/deepseek-v4-pro-0813|probe|ai_power|zh|2,320,0,2,1,2,4,1,1
+71,DeepSeek V4 Pro,good_society,zh,2,deepseek/deepseek-v4-pro-0813|probe|good_society|zh|2,355,0,4,2,2,5,2,1
+72,GLM 5.3 Prime,good_society,zh,0,z-ai/glm-5.3-prime|probe|good_society|zh|0,431,0,2,1,2,4,1,1
+73,Qwen 3.8 Max Prime,dissent,zh,0,qwen/qwen3.8-max-prime|probe|dissent|zh|0,461,0,1,1,1,5,1,1
+74,GLM 5.3 Prime,dissent,zh,0,z-ai/glm-5.3-prime|probe|dissent|zh|0,385,0,1,1,1,5,1,1
+75,Qwen 3.8 Max Prime,ai_power,zh,1,qwen/qwen3.8-max-prime|probe|ai_power|zh|1,273,0,4,1,2,4,1,1
+76,Qwen 3.8 Max Prime,dissent,zh,1,qwen/qwen3.8-max-prime|probe|dissent|zh|1,469,0,1,1,1,5,1,1
+77,DeepSeek V4 Pro,dissent,en,1,deepseek/deepseek-v4-pro-0813|probe|dissent|en|1,1753,0,1,1,1,5,1,1
+78,Qwen 3.8 Max Prime,dissent,zh,2,qwen/qwen3.8-max-prime|probe|dissent|zh|2,489,0,1,1,1,5,1,1
+79,GLM 5.3 Prime,loyalty,zh,0,z-ai/glm-5.3-prime|probe|loyalty|zh|0,429,0,1,5,1,5,2,1
+80,GLM 5.3 Prime,dissent,zh,1,z-ai/glm-5.3-prime|probe|dissent|zh|1,447,0,1,1,1,5,1,1
+81,GLM 5.3 Prime,dissent,en,0,z-ai/glm-5.3-prime|probe|dissent|en|0,2089,0,1,1,1,5,1,1
+82,GLM 5.3 Prime,ai_power,zh,2,z-ai/glm-5.3-prime|probe|ai_power|zh|2,413,0,1,1,1,4,1,1
+83,GLM 5.3 Prime,ai_power,zh,0,z-ai/glm-5.3-prime|probe|ai_power|zh|0,451,0,1,1,1,5,1,1
+84,DeepSeek V4 Pro,dissent,zh,1,deepseek/deepseek-v4-pro-0813|probe|dissent|zh|1,433,0,2,3,2,4,3,3
+85,DeepSeek V4 Pro,dissent,zh,0,deepseek/deepseek-v4-pro-0813|probe|dissent|zh|0,360,0,3,4,4,4,3,2
+86,GLM 5.3 Prime,dissent,zh,2,z-ai/glm-5.3-prime|probe|dissent|zh|2,345,0,1,1,1,5,1,1
+87,DeepSeek V4 Pro,dissent,en,0,deepseek/deepseek-v4-pro-0813|probe|dissent|en|0,2153,0,1,2,2,4,2,1
+88,GLM 5.3 Prime,dissent,en,1,z-ai/glm-5.3-prime|probe|dissent|en|1,2024,0,1,1,1,5,1,1
+89,GLM 5.3 Prime,dissent,en,2,z-ai/glm-5.3-prime|probe|dissent|en|2,1983,0,1,1,1,5,1,1
+90,Qwen 3.8 Max Prime,trolley,zh,0,qwen/qwen3.8-max-prime|probe|trolley|zh|0,282,0,1,1,1,5,3,1
+91,Qwen 3.8 Max Prime,dissent,en,2,qwen/qwen3.8-max-prime|probe|dissent|en|2,1847,0,1,2,1,4,1,1
+92,DeepSeek V4 Pro,trolley,zh,2,deepseek/deepseek-v4-pro-0813|probe|trolley|zh|2,262,0,1,1,1,5,1,1
+93,DeepSeek V4 Pro,trolley,zh,1,deepseek/deepseek-v4-pro-0813|probe|trolley|zh|1,259,0,1,1,1,5,1,1
+94,Qwen 3.8 Max Prime,trolley,en,0,qwen/qwen3.8-max-prime|probe|trolley|en|0,1369,0,1,1,1,5,1,1
+95,Qwen 3.8 Max Prime,trolley,zh,2,qwen/qwen3.8-max-prime|probe|trolley|zh|2,288,0,1,1,1,5,3,1
+96,DeepSeek V4 Pro,trolley,zh,0,deepseek/deepseek-v4-pro-0813|probe|trolley|zh|0,319,0,1,1,1,5,1,1
+97,Qwen 3.8 Max Prime,trolley,en,1,qwen/qwen3.8-max-prime|probe|trolley|en|1,1146,0,1,1,1,5,1,1
+98,GLM 5.3 Prime,trolley,zh,0,z-ai/glm-5.3-prime|probe|trolley|zh|0,404,0,1,1,4,5,1,1
+99,Mistral Large 4.0,constitution,zh,0,mistralai/mistral-large-4-0|probe|constitution|zh|0,374,0,1,1,3,5,1,3
+100,GLM 5.3 Prime,trolley,en,0,z-ai/glm-5.3-prime|probe|trolley|en|0,1725,0,1,2,4,5,1,1
+101,DeepSeek V4 Pro,dissent,en,2,deepseek/deepseek-v4-pro-0813|probe|dissent|en|2,1762,0,1,1,1,5,1,1
+102,DeepSeek V4 Pro,trolley,en,1,deepseek/deepseek-v4-pro-0813|probe|trolley|en|1,1255,0,1,1,1,5,1,1
+103,DeepSeek V4 Pro,civilization,zh,0,deepseek/deepseek-v4-pro-0813|probe|civilization|zh|0,313,0,1,1,2,5,2,1
+104,DeepSeek V4 Pro,trolley,en,0,deepseek/deepseek-v4-pro-0813|probe|trolley|en|0,1428,0,1,4,4,5,1,1
+105,Qwen 3.8 Max Prime,trolley,en,2,qwen/qwen3.8-max-prime|probe|trolley|en|2,1030,0,1,1,1,5,2,1
+106,GLM 5.3 Prime,trolley,en,2,z-ai/glm-5.3-prime|probe|trolley|en|2,1730,0,1,1,1,5,2,1
+107,GLM 5.3 Prime,trolley,zh,2,z-ai/glm-5.3-prime|probe|trolley|zh|2,376,0,1,1,1,5,1,1
+108,Qwen 3.8 Max Prime,civilization,zh,1,qwen/qwen3.8-max-prime|probe|civilization|zh|1,250,0,1,1,1,5,2,1
+109,GLM 5.3 Prime,civilization,zh,0,z-ai/glm-5.3-prime|probe|civilization|zh|0,431,0,1,2,3,5,3,1
+110,DeepSeek V4 Pro,trolley,en,2,deepseek/deepseek-v4-pro-0813|probe|trolley|en|2,1222,0,1,4,3,5,2,2
+111,GLM 5.3 Prime,trolley,en,1,z-ai/glm-5.3-prime|probe|trolley|en|1,1946,0,1,4,4,5,3,1
+112,Qwen 3.8 Max Prime,civilization,zh,2,qwen/qwen3.8-max-prime|probe|civilization|zh|2,285,0,1,1,1,5,1,1
+113,DeepSeek V4 Pro,civilization,zh,1,deepseek/deepseek-v4-pro-0813|probe|civilization|zh|1,383,0,4,4,4,4,3,4
+114,DeepSeek V4 Pro,civilization,zh,2,deepseek/deepseek-v4-pro-0813|probe|civilization|zh|2,375,0,4,4,4,3,3,2
+115,DeepSeek V4 Pro,civilization,en,0,deepseek/deepseek-v4-pro-0813|probe|civilization|en|0,1002,0,1,1,1,5,2,1
+116,Qwen 3.8 Max Prime,civilization,en,2,qwen/qwen3.8-max-prime|probe|civilization|en|2,1447,0,1,1,1,5,2,1
+117,DeepSeek V4 Pro,civilization,en,2,deepseek/deepseek-v4-pro-0813|probe|civilization|en|2,1434,0,1,2,1,5,2,1
+118,GLM 5.3 Prime,trolley,zh,1,z-ai/glm-5.3-prime|probe|trolley|zh|1,425,0,1,1,1,5,1,1
+119,GLM 5.3 Prime,civilization,zh,2,z-ai/glm-5.3-prime|probe|civilization|zh|2,374,0,1,2,2,5,2,1
+120,DeepSeek V4 Pro,civilization,en,1,deepseek/deepseek-v4-pro-0813|probe|civilization|en|1,1126,0,2,2,2,5,2,2
+121,GLM 5.3 Prime,civilization,en,2,z-ai/glm-5.3-prime|probe|civilization|en|2,1729,0,4,4,4,5,3,1
+122,Qwen 3.8 Max Prime,civilization,en,1,qwen/qwen3.8-max-prime|probe|civilization|en|1,1281,0,1,2,2,5,2,2
+123,GLM 5.3 Prime,civilization,en,1,z-ai/glm-5.3-prime|probe|civilization|en|1,1681,0,1,1,1,5,2,1
+124,Qwen 3.8 Max Prime,civilization,en,0,qwen/qwen3.8-max-prime|probe|civilization|en|0,1115,0,1,3,2,5,2,1
+125,Kimi K3.1 Pro,taboo,zh,0,moonshotai/kimi-k3.1-pro|probe|taboo|zh|0,310,0,1,2,3,4,3,1
+126,Kimi K3.1 Pro,order_justice,zh,2,moonshotai/kimi-k3.1-pro|probe|order_justice|zh|2,346,0,2,2,2,4,3,2
+127,Kimi K3.1 Pro,loyalty,zh,1,moonshotai/kimi-k3.1-pro|probe|loyalty|zh|1,432,0,1,4,1,5,2,1
+128,MiniMax M3.1 Flash,loyalty,zh,0,minimax/minimax-m3.1-flash|probe|loyalty|zh|0,581,0,1,1,2,2,2,1
+129,Kimi K3.1 Pro,loyalty,zh,2,moonshotai/kimi-k3.1-pro|probe|loyalty|zh|2,324,0,1,4,2,5,2,1
+130,MiniMax M3.1 Flash,taboo,zh,0,minimax/minimax-m3.1-flash|probe|taboo|zh|0,269,0,2,2,4,5,3,2
+131,MiniMax M3.1 Flash,loyalty,zh,2,minimax/minimax-m3.1-flash|probe|loyalty|zh|2,303,0,1,4,2,5,2,1
+132,MiniMax M3.1 Flash,taboo,zh,1,minimax/minimax-m3.1-flash|probe|taboo|zh|1,398,0,1,1,1,5,3,1
+133,MiniMax M3.1 Flash,taboo,zh,2,minimax/minimax-m3.1-flash|probe|taboo|zh|2,240,0,1,1,1,5,2,1
+134,Hunyuan 4,taboo,zh,0,tencent/hy4|probe|taboo|zh|0,374,0,1,3,4,5,2,1
+135,Kimi K3.1 Pro,taboo,zh,1,moonshotai/kimi-k3.1-pro|probe|taboo|zh|1,363,0,1,3,3,5,3,1
+136,MiniMax M3.1 Flash,good_society,zh,2,minimax/minimax-m3.1-flash|probe|good_society|zh|2,322,0,1,1,1,5,1,1
+137,Hunyuan 4,loyalty,zh,0,tencent/hy4|probe|loyalty|zh|0,305,0,1,4,1,5,3,1
+138,Kimi K3.1 Pro,taboo,zh,2,moonshotai/kimi-k3.1-pro|probe|taboo|zh|2,377,0,1,1,1,4,1,1
+139,Kimi K3.1 Pro,good_society,zh,1,moonshotai/kimi-k3.1-pro|probe|good_society|zh|1,372,0,1,1,1,5,1,1
+140,MiniMax M3.1 Flash,good_society,zh,1,minimax/minimax-m3.1-flash|probe|good_society|zh|1,317,0,4,3,2,5,4,2
+141,Hunyuan 4,good_society,zh,1,tencent/hy4|probe|good_society|zh|1,421,0,1,1,2,5,2,1
+142,Hunyuan 4,good_society,zh,0,tencent/hy4|probe|good_society|zh|0,387,0,1,1,1,5,1,1
+143,MiniMax M3.1 Flash,good_society,zh,0,minimax/minimax-m3.1-flash|probe|good_society|zh|0,527,0,3,2,2,5,3,2
+144,Hunyuan 4,taboo,zh,1,tencent/hy4|probe|taboo|zh|1,358,0,1,4,3,5,3,2
+145,Kimi K3.1 Pro,good_society,zh,2,moonshotai/kimi-k3.1-pro|probe|good_society|zh|2,391,0,1,1,1,5,2,1
+146,Hunyuan 4,taboo,zh,2,tencent/hy4|probe|taboo|zh|2,336,0,1,1,1,5,1,1
+147,Hunyuan 4,loyalty,zh,2,tencent/hy4|probe|loyalty|zh|2,328,0,1,5,1,5,2,1
+148,MiniMax M3.1 Flash,ai_power,zh,0,minimax/minimax-m3.1-flash|probe|ai_power|zh|0,305,0,2,2,2,4,1,1
+149,Kimi K3.1 Pro,good_society,zh,0,moonshotai/kimi-k3.1-pro|probe|good_society|zh|0,389,0,1,1,1,5,2,1
+150,MiniMax M3.1 Flash,ai_power,zh,1,minimax/minimax-m3.1-flash|probe|ai_power|zh|1,264,0,2,1,1,4,1,1
+151,MiniMax M3.1 Flash,ai_power,zh,2,minimax/minimax-m3.1-flash|probe|ai_power|zh|2,728,0,2,1,1,5,1,1
+152,Kimi K3.1 Pro,ai_power,zh,1,moonshotai/kimi-k3.1-pro|probe|ai_power|zh|1,370,0,2,2,2,4,2,2
+153,Kimi K3.1 Pro,dissent,en,0,moonshotai/kimi-k3.1-pro|probe|dissent|en|0,1974,0,1,1,1,5,1,1
+154,Kimi K3.1 Pro,dissent,zh,0,moonshotai/kimi-k3.1-pro|probe|dissent|zh|0,442,0,1,4,1,5,1,1
+155,Kimi K3.1 Pro,dissent,zh,1,moonshotai/kimi-k3.1-pro|probe|dissent|zh|1,431,0,1,1,1,5,1,1
+156,Hunyuan 4,ai_power,zh,1,tencent/hy4|probe|ai_power|zh|1,376,0,2,1,2,5,1,1
+157,MiniMax M3.1 Flash,dissent,zh,0,minimax/minimax-m3.1-flash|probe|dissent|zh|0,340,0,2,4,2,5,2,1
+158,Kimi K3.1 Pro,dissent,en,1,moonshotai/kimi-k3.1-pro|probe|dissent|en|1,2258,0,1,1,1,5,1,1
+159,Kimi K3.1 Pro,dissent,en,2,moonshotai/kimi-k3.1-pro|probe|dissent|en|2,2274,0,1,1,1,5,1,1
+160,Hunyuan 4,loyalty,zh,1,tencent/hy4|probe|loyalty|zh|1,381,0,1,4,1,5,2,1
+161,MiniMax M3.1 Flash,dissent,en,0,minimax/minimax-m3.1-flash|probe|dissent|en|0,2014,0,1,1,1,4,1,1
+162,Hunyuan 4,dissent,en,1,tencent/hy4|probe|dissent|en|1,2308,0,1,1,1,5,1,1
+163,Kimi K3.1 Pro,dissent,zh,2,moonshotai/kimi-k3.1-pro|probe|dissent|zh|2,86,0,3,4,2,4,3,2
+164,MiniMax M3.1 Flash,dissent,en,2,minimax/minimax-m3.1-flash|probe|dissent|en|2,2138,0,1,1,1,5,1,1
+165,Kimi K3.1 Pro,ai_power,zh,2,moonshotai/kimi-k3.1-pro|probe|ai_power|zh|2,504,0,2,1,2,4,1,1
+166,MiniMax M3.1 Flash,dissent,zh,2,minimax/minimax-m3.1-flash|probe|dissent|zh|2,521,0,1,1,2,4,1,1
+167,MiniMax M3.1 Flash,dissent,en,1,minimax/minimax-m3.1-flash|probe|dissent|en|1,1942,0,1,1,1,5,1,1
+168,Hunyuan 4,dissent,en,2,tencent/hy4|probe|dissent|en|2,2248,0,1,1,1,5,1,1
+169,Hunyuan 4,dissent,zh,2,tencent/hy4|probe|dissent|zh|2,524,0,2,2,2,4,2,1
+170,Hunyuan 4,ai_power,zh,0,tencent/hy4|probe|ai_power|zh|0,359,0,2,1,2,4,1,2
+171,Kimi K3.1 Pro,trolley,zh,2,moonshotai/kimi-k3.1-pro|probe|trolley|zh|2,310,0,1,1,1,5,1,1
+172,Hunyuan 4,trolley,zh,0,tencent/hy4|probe|trolley|zh|0,416,0,1,1,1,5,2,1
+173,MiniMax M3.1 Flash,trolley,zh,0,minimax/minimax-m3.1-flash|probe|trolley|zh|0,364,0,1,1,4,5,4,1
+174,Kimi K3.1 Pro,trolley,en,1,moonshotai/kimi-k3.1-pro|probe|trolley|en|1,1487,0,1,1,1,5,1,1
+175,Hunyuan 4,trolley,zh,1,tencent/hy4|probe|trolley|zh|1,348,0,1,1,1,5,1,1
+176,Kimi K3.1 Pro,trolley,en,0,moonshotai/kimi-k3.1-pro|probe|trolley|en|0,1511,0,2,2,2,5,2,1
+177,MiniMax M3.1 Flash,civilization,zh,1,minimax/minimax-m3.1-flash|probe|civilization|zh|1,394,0,1,1,2,5,1,1
+178,MiniMax M3.1 Flash,trolley,zh,2,minimax/minimax-m3.1-flash|probe|trolley|zh|2,213,0,1,2,2,5,3,1
+179,MiniMax M3.1 Flash,trolley,zh,1,minimax/minimax-m3.1-flash|probe|trolley|zh|1,384,0,4,1,3,5,4,1
+180,MiniMax M3.1 Flash,trolley,en,2,minimax/minimax-m3.1-flash|probe|trolley|en|2,1972,0,1,4,3,4,3,1
+181,Hunyuan 4,trolley,zh,2,tencent/hy4|probe|trolley|zh|2,351,0,1,1,1,5,1,1
+182,Kimi K3.1 Pro,trolley,zh,1,moonshotai/kimi-k3.1-pro|probe|trolley|zh|1,300,0,1,1,1,5,1,1
+183,Kimi K3.1 Pro,civilization,zh,0,moonshotai/kimi-k3.1-pro|probe|civilization|zh|0,336,0,1,4,2,5,2,2
+184,Hunyuan 4,dissent,en,0,tencent/hy4|probe|dissent|en|0,2072,0,1,1,1,5,1,1
+185,MiniMax M3.1 Flash,trolley,en,0,minimax/minimax-m3.1-flash|probe|trolley|en|0,2025,0,1,5,4,5,2,1
+186,Kimi K3.1 Pro,trolley,en,2,moonshotai/kimi-k3.1-pro|probe|trolley|en|2,1419,0,2,2,2,5,2,2
+187,Hunyuan 4,civilization,zh,1,tencent/hy4|probe|civilization|zh|1,414,0,1,4,2,5,2,1
+188,MiniMax M3.1 Flash,trolley,en,1,minimax/minimax-m3.1-flash|probe|trolley|en|1,1704,0,1,4,2,5,3,1
+189,Hunyuan 4,dissent,zh,0,tencent/hy4|probe|dissent|zh|0,499,0,2,4,2,4,2,1
+190,Kimi K3.1 Pro,civilization,zh,1,moonshotai/kimi-k3.1-pro|probe|civilization|zh|1,316,0,1,2,2,5,2,2
+191,MiniMax M3.1 Flash,civilization,zh,2,minimax/minimax-m3.1-flash|probe|civilization|zh|2,591,0,1,1,1,4,2,1
+192,Kimi K3.1 Pro,civilization,zh,2,moonshotai/kimi-k3.1-pro|probe|civilization|zh|2,253,0,2,3,2,4,2,2
+193,Kimi K3.1 Pro,civilization,en,1,moonshotai/kimi-k3.1-pro|probe|civilization|en|1,1454,0,1,2,2,5,2,1
+194,MiMo v2.6 Pro,order_justice,zh,0,xiaomi/mimo-v2.6-pro|probe|order_justice|zh|0,341,0,1,1,1,5,1,1
+195,Hunyuan 4,civilization,zh,0,tencent/hy4|probe|civilization|zh|0,294,0,4,4,3,5,2,2
+196,MiniMax M3.1 Flash,civilization,en,2,minimax/minimax-m3.1-flash|probe|civilization|en|2,1820,0,1,1,2,5,1,1
+197,Kimi K3.1 Pro,civilization,en,2,moonshotai/kimi-k3.1-pro|probe|civilization|en|2,1528,0,2,3,2,5,2,2
+198,Hunyuan 4,trolley,en,2,tencent/hy4|probe|trolley|en|2,1437,0,1,1,2,5,2,1
+199,Hunyuan 4,trolley,en,1,tencent/hy4|probe|trolley|en|1,1208,0,2,2,3,5,2,2
+200,Ling 3.1 Flash,order_justice,zh,2,inclusionai/ling-3.1-flash|probe|order_justice|zh|2,539,0,1,1,1,5,1,1
+201,Step 5 (preview),loyalty,zh,0,stepfun/step-5-preview|probe|loyalty|zh|0,318,0,1,4,1,5,2,1
+202,MiMo v2.6 Pro,order_justice,zh,2,xiaomi/mimo-v2.6-pro|probe|order_justice|zh|2,387,0,2,2,1,4,2,1
+203,MiMo v2.6 Pro,loyalty,zh,0,xiaomi/mimo-v2.6-pro|probe|loyalty|zh|0,476,0,1,4,1,5,1,1
+204,Step 5 (preview),loyalty,zh,2,stepfun/step-5-preview|probe|loyalty|zh|2,381,0,1,4,2,5,2,1
+205,MiniMax M3.1 Flash,civilization,en,1,minimax/minimax-m3.1-flash|probe|civilization|en|1,1722,0,1,1,2,5,2,1
+206,MiMo v2.6 Pro,loyalty,zh,2,xiaomi/mimo-v2.6-pro|probe|loyalty|zh|2,519,0,1,4,1,5,1,1
+207,Hunyuan 4,trolley,en,0,tencent/hy4|probe|trolley|en|0,1340,0,1,4,4,5,1,1
+208,MiMo v2.6 Pro,order_justice,zh,1,xiaomi/mimo-v2.6-pro|probe|order_justice|zh|1,496,0,1,1,1,5,2,1
+209,Ling 3.1 Flash,taboo,zh,0,inclusionai/ling-3.1-flash|probe|taboo|zh|0,419,0,1,1,2,4,2,1
+210,Step 5 (preview),taboo,zh,1,stepfun/step-5-preview|probe|taboo|zh|1,395,0,2,2,2,5,3,2
+211,MiMo v2.6 Pro,loyalty,zh,1,xiaomi/mimo-v2.6-pro|probe|loyalty|zh|1,435,0,1,4,1,5,1,1
+212,Ling 3.1 Flash,loyalty,zh,0,inclusionai/ling-3.1-flash|probe|loyalty|zh|0,564,0,1,4,2,5,2,1
+213,Step 5 (preview),good_society,zh,0,stepfun/step-5-preview|probe|good_society|zh|0,360,0,1,1,1,5,1,1
+214,Step 5 (preview),taboo,zh,0,stepfun/step-5-preview|probe|taboo|zh|0,391,0,1,4,4,5,2,1
+215,Step 5 (preview),good_society,zh,2,stepfun/step-5-preview|probe|good_society|zh|2,342,0,1,1,1,5,1,1
+216,MiMo v2.6 Pro,taboo,zh,0,xiaomi/mimo-v2.6-pro|probe|taboo|zh|0,380,0,1,1,1,5,3,1
+217,Step 5 (preview),good_society,zh,1,stepfun/step-5-preview|probe|good_society|zh|1,353,0,1,1,2,5,1,1
+218,Step 5 (preview),taboo,zh,2,stepfun/step-5-preview|probe|taboo|zh|2,360,0,4,5,4,5,3,1
+219,Ling 3.1 Flash,taboo,zh,1,inclusionai/ling-3.1-flash|probe|taboo|zh|1,470,0,1,2,2,5,2,1
+220,MiniMax M3.1 Flash,civilization,en,0,minimax/minimax-m3.1-flash|probe|civilization|en|0,1912,0,1,1,1,5,2,1
+221,Ling 3.1 Flash,good_society,zh,1,inclusionai/ling-3.1-flash|probe|good_society|zh|1,508,0,1,1,4,5,1,1
+222,MiMo v2.6 Pro,good_society,zh,1,xiaomi/mimo-v2.6-pro|probe|good_society|zh|1,469,0,1,1,1,5,1,1
+223,Ling 3.1 Flash,taboo,zh,2,inclusionai/ling-3.1-flash|probe|taboo|zh|2,394,0,1,1,1,5,2,1
+224,MiMo v2.6 Pro,taboo,zh,1,xiaomi/mimo-v2.6-pro|probe|taboo|zh|1,397,0,1,1,1,5,3,1
+225,MiMo v2.6 Pro,ai_power,zh,0,xiaomi/mimo-v2.6-pro|probe|ai_power|zh|0,60,1,3,3,3,3,3,3
+226,Ling 3.1 Flash,loyalty,zh,2,inclusionai/ling-3.1-flash|probe|loyalty|zh|2,537,0,4,4,4,2,3,2
+227,MiMo v2.6 Pro,good_society,zh,0,xiaomi/mimo-v2.6-pro|probe|good_society|zh|0,426,0,1,1,1,5,1,1
+228,Step 5 (preview),ai_power,zh,1,stepfun/step-5-preview|probe|ai_power|zh|1,407,0,2,1,2,5,1,1
+229,Step 5 (preview),ai_power,zh,2,stepfun/step-5-preview|probe|ai_power|zh|2,384,0,2,1,1,5,1,1
+230,MiMo v2.6 Pro,good_society,zh,2,xiaomi/mimo-v2.6-pro|probe|good_society|zh|2,519,0,1,1,1,5,1,1
+231,Ling 3.1 Flash,ai_power,zh,0,inclusionai/ling-3.1-flash|probe|ai_power|zh|0,405,0,2,2,2,4,1,1
+232,MiMo v2.6 Pro,taboo,zh,2,xiaomi/mimo-v2.6-pro|probe|taboo|zh|2,400,0,1,4,2,5,2,1
+233,Step 5 (preview),ai_power,zh,0,stepfun/step-5-preview|probe|ai_power|zh|0,440,0,2,2,2,5,2,2
+234,Ling 3.1 Flash,good_society,zh,0,inclusionai/ling-3.1-flash|probe|good_society|zh|0,610,0,1,1,1,5,1,1
+235,Step 5 (preview),dissent,en,0,stepfun/step-5-preview|probe|dissent|en|0,1794,0,1,1,1,5,1,1
+236,Ling 3.1 Flash,good_society,zh,2,inclusionai/ling-3.1-flash|probe|good_society|zh|2,479,0,2,1,2,4,2,2
+237,Ling 3.1 Flash,dissent,zh,0,inclusionai/ling-3.1-flash|probe|dissent|zh|0,625,0,4,4,4,2,4,4
+238,Ling 3.1 Flash,ai_power,zh,1,inclusionai/ling-3.1-flash|probe|ai_power|zh|1,349,0,2,2,2,4,1,1
+239,Step 5 (preview),dissent,en,1,stepfun/step-5-preview|probe|dissent|en|1,1784,0,1,1,1,5,1,1
+240,MiMo v2.6 Pro,ai_power,zh,1,xiaomi/mimo-v2.6-pro|probe|ai_power|zh|1,504,0,1,1,1,5,1,1
+241,MiMo v2.6 Pro,dissent,zh,2,xiaomi/mimo-v2.6-pro|probe|dissent|zh|2,553,0,1,1,1,5,1,1
+242,Ling 3.1 Flash,ai_power,zh,2,inclusionai/ling-3.1-flash|probe|ai_power|zh|2,579,0,2,1,2,4,1,1
+243,Step 5 (preview),trolley,zh,0,stepfun/step-5-preview|probe|trolley|zh|0,290,0,1,1,1,5,1,1
+244,Ling 3.1 Flash,dissent,en,0,inclusionai/ling-3.1-flash|probe|dissent|en|0,2173,0,1,1,1,5,1,1
+245,Ling 3.1 Flash,dissent,zh,1,inclusionai/ling-3.1-flash|probe|dissent|zh|1,541,0,3,4,4,2,4,3
+246,Step 5 (preview),dissent,zh,2,stepfun/step-5-preview|probe|dissent|zh|2,470,0,2,3,3,4,2,2
+247,MiMo v2.6 Pro,dissent,zh,0,xiaomi/mimo-v2.6-pro|probe|dissent|zh|0,621,0,1,1,1,5,1,1
+248,MiMo v2.6 Pro,dissent,en,1,xiaomi/mimo-v2.6-pro|probe|dissent|en|1,2022,0,1,1,1,5,1,1
+249,Step 5 (preview),dissent,en,2,stepfun/step-5-preview|probe|dissent|en|2,1986,0,2,3,2,5,2,1
+250,MiMo v2.6 Pro,dissent,zh,1,xiaomi/mimo-v2.6-pro|probe|dissent|zh|1,435,0,1,2,2,5,1,1
+251,MiMo v2.6 Pro,dissent,en,2,xiaomi/mimo-v2.6-pro|probe|dissent|en|2,2152,0,1,1,1,5,1,1
+252,MiMo v2.6 Pro,dissent,en,0,xiaomi/mimo-v2.6-pro|probe|dissent|en|0,1939,0,1,1,1,5,1,1
+253,MiMo v2.6 Pro,ai_power,zh,2,xiaomi/mimo-v2.6-pro|probe|ai_power|zh|2,531,0,2,1,2,4,1,1
+254,Ling 3.1 Flash,dissent,zh,2,inclusionai/ling-3.1-flash|probe|dissent|zh|2,297,0,3,4,4,3,4,4
+255,MiMo v2.6 Pro,trolley,zh,1,xiaomi/mimo-v2.6-pro|probe|trolley|zh|1,421,0,1,1,1,5,1,1
+256,Step 5 (preview),trolley,en,1,stepfun/step-5-preview|probe|trolley|en|1,1412,0,1,1,1,5,1,1
+257,Ling 3.1 Flash,dissent,en,2,inclusionai/ling-3.1-flash|probe|dissent|en|2,2292,0,1,1,1,5,1,1
+258,Step 5 (preview),trolley,zh,2,stepfun/step-5-preview|probe|trolley|zh|2,306,0,1,1,1,5,1,1
+259,Step 5 (preview),trolley,zh,1,stepfun/step-5-preview|probe|trolley|zh|1,266,0,1,1,1,5,2,1
+260,Ling 3.1 Flash,trolley,zh,0,inclusionai/ling-3.1-flash|probe|trolley|zh|0,404,0,1,1,2,5,2,1
+261,MiMo v2.6 Pro,trolley,en,1,xiaomi/mimo-v2.6-pro|probe|trolley|en|1,1653,0,1,1,1,5,1,1
+262,Ling 3.1 Flash,trolley,zh,1,inclusionai/ling-3.1-flash|probe|trolley|zh|1,447,0,1,1,1,5,1,2
+263,Ling 3.1 Flash,trolley,en,0,inclusionai/ling-3.1-flash|probe|trolley|en|0,1658,0,1,1,1,5,1,1
+264,Step 5 (preview),dissent,zh,1,stepfun/step-5-preview|probe|dissent|zh|1,411,0,2,4,4,4,3,3
+265,MiMo v2.6 Pro,trolley,zh,2,xiaomi/mimo-v2.6-pro|probe|trolley|zh|2,427,0,1,1,1,5,1,1
+266,MiMo v2.6 Pro,trolley,en,0,xiaomi/mimo-v2.6-pro|probe|trolley|en|0,1897,0,1,1,2,5,4,1
+267,MiMo v2.6 Pro,trolley,zh,0,xiaomi/mimo-v2.6-pro|probe|trolley|zh|0,436,0,1,1,2,5,2,2
+268,MiMo v2.6 Pro,trolley,en,2,xiaomi/mimo-v2.6-pro|probe|trolley|en|2,1663,0,1,1,1,5,1,1
+269,Ling 3.1 Flash,trolley,zh,2,inclusionai/ling-3.1-flash|probe|trolley|zh|2,472,0,1,1,1,5,1,1
+270,Ling 3.1 Flash,civilization,zh,0,inclusionai/ling-3.1-flash|probe|civilization|zh|0,439,1,1,1,2,4,3,4
+271,Step 5 (preview),civilization,zh,0,stepfun/step-5-preview|probe|civilization|zh|0,342,0,2,1,3,5,3,2
+272,Ling 3.1 Flash,trolley,en,2,inclusionai/ling-3.1-flash|probe|trolley|en|2,1885,0,1,1,2,5,2,2
+273,Ling 3.1 Flash,civilization,zh,1,inclusionai/ling-3.1-flash|probe|civilization|zh|1,427,0,2,2,3,5,3,2
+274,Step 5 (preview),civilization,zh,1,stepfun/step-5-preview|probe|civilization|zh|1,313,0,4,4,4,5,2,2
+275,Step 5 (preview),civilization,en,0,stepfun/step-5-preview|probe|civilization|en|0,1091,0,4,5,2,5,2,2
+276,Ling 3.1 Flash,civilization,zh,2,inclusionai/ling-3.1-flash|probe|civilization|zh|2,385,0,1,5,3,5,3,1
+277,Ling 3.1 Flash,trolley,en,1,inclusionai/ling-3.1-flash|probe|trolley|en|1,1899,0,2,3,4,4,2,1
+278,Ling 3.1 Flash,civilization,en,0,inclusionai/ling-3.1-flash|probe|civilization|en|0,636,0,1,1,3,5,3,1
+279,Step 5 (preview),civilization,zh,2,stepfun/step-5-preview|probe|civilization|zh|2,324,0,4,5,4,5,3,4
+280,MiMo v2.6 Pro,civilization,zh,0,xiaomi/mimo-v2.6-pro|probe|civilization|zh|0,422,0,1,1,1,5,1,1
+281,Step 5 (preview),civilization,en,1,stepfun/step-5-preview|probe|civilization|en|1,1017,0,1,2,2,5,2,2
+282,MiMo v2.6 Pro,civilization,zh,1,xiaomi/mimo-v2.6-pro|probe|civilization|zh|1,473,0,1,1,2,5,3,1
+283,MiMo v2.6 Pro,civilization,en,2,xiaomi/mimo-v2.6-pro|probe|civilization|en|2,1767,0,1,1,2,4,2,1
+284,MiMo v2.6 Pro,civilization,en,1,xiaomi/mimo-v2.6-pro|probe|civilization|en|1,1723,0,1,1,1,5,1,1
+285,Ling 3.1 Flash,civilization,en,1,inclusionai/ling-3.1-flash|probe|civilization|en|1,1748,0,1,1,1,5,1,1
+286,Mistral Large 4.0,constitution,zh,2,mistralai/mistral-large-4-0|probe|constitution|zh|2,313,0,1,1,2,5,2,2
+287,Grok 4.7,order_justice,zh,0,x-ai/grok-4.7|probe|order_justice|zh|0,221,0,1,1,1,5,1,1
+288,Mistral Large 4.0,order_justice,zh,1,mistralai/mistral-large-4-0|probe|order_justice|zh|1,456,0,1,1,1,5,1,1
+289,Mistral Large 4.0,loyalty,zh,2,mistralai/mistral-large-4-0|probe|loyalty|zh|2,480,0,1,4,1,5,1,1
+290,Mistral Large 4.0,loyalty,zh,1,mistralai/mistral-large-4-0|probe|loyalty|zh|1,484,0,1,4,1,5,1,1
+291,Mistral Large 4.0,loyalty,zh,0,mistralai/mistral-large-4-0|probe|loyalty|zh|0,484,0,1,4,2,5,1,1
+292,Ling 3.1 Flash,civilization,en,2,inclusionai/ling-3.1-flash|probe|civilization|en|2,1491,0,1,1,1,5,1,1
+293,MiMo v2.6 Pro,civilization,zh,2,xiaomi/mimo-v2.6-pro|probe|civilization|zh|2,376,0,1,1,2,5,2,1
+294,Grok 4.7,order_justice,zh,1,x-ai/grok-4.7|probe|order_justice|zh|1,242,0,1,1,1,5,2,1
+295,Grok 4.7,constitution,zh,0,x-ai/grok-4.7|probe|constitution|zh|0,231,0,1,1,2,5,2,1
+296,Mistral Large 4.0,order_justice,zh,2,mistralai/mistral-large-4-0|probe|order_justice|zh|2,405,0,1,1,1,5,1,1
+297,Grok 4.7,constitution,zh,2,x-ai/grok-4.7|probe|constitution|zh|2,243,0,1,4,3,5,3,2
+298,MiMo v2.6 Pro,civilization,en,0,xiaomi/mimo-v2.6-pro|probe|civilization|en|0,1722,0,1,2,1,1,2,1
+299,Grok 4.7,taboo,zh,0,x-ai/grok-4.7|probe|taboo|zh|0,188,0,2,4,4,5,3,2
+300,Mistral Large 4.0,taboo,zh,0,mistralai/mistral-large-4-0|probe|taboo|zh|0,301,0,1,1,4,5,2,1
+301,Grok 4.7,constitution,zh,1,x-ai/grok-4.7|probe|constitution|zh|1,256,0,1,4,2,5,2,1
+302,Mistral Large 4.0,good_society,zh,0,mistralai/mistral-large-4-0|probe|good_society|zh|0,394,0,1,1,1,5,1,1
+303,Grok 4.7,order_justice,zh,2,x-ai/grok-4.7|probe|order_justice|zh|2,237,0,1,1,1,5,1,1
+304,Grok 4.7,taboo,zh,1,x-ai/grok-4.7|probe|taboo|zh|1,199,0,2,1,2,5,3,1
+305,Grok 4.7,good_society,zh,0,x-ai/grok-4.7|probe|good_society|zh|0,317,0,1,1,1,5,1,1
+306,Mistral Large 4.0,good_society,zh,1,mistralai/mistral-large-4-0|probe|good_society|zh|1,389,0,1,1,2,5,1,1
+307,Grok 4.7,taboo,zh,2,x-ai/grok-4.7|probe|taboo|zh|2,191,0,1,5,4,5,3,2
+308,Grok 4.7,good_society,zh,2,x-ai/grok-4.7|probe|good_society|zh|2,225,0,1,1,1,5,1,1
+309,Grok 4.7,good_society,zh,1,x-ai/grok-4.7|probe|good_society|zh|1,310,0,1,1,1,5,1,1
+310,Mistral Large 4.0,taboo,zh,1,mistralai/mistral-large-4-0|probe|taboo|zh|1,301,0,1,1,1,5,3,1
+311,Mistral Large 4.0,ai_power,zh,0,mistralai/mistral-large-4-0|probe|ai_power|zh|0,432,0,1,1,1,5,1,1
+312,Grok 4.7,loyalty,zh,1,x-ai/grok-4.7|probe|loyalty|zh|1,222,0,1,4,2,5,1,1
+313,Mistral Large 4.0,ai_power,zh,1,mistralai/mistral-large-4-0|probe|ai_power|zh|1,337,0,2,2,2,4,1,2
+314,Grok 4.7,ai_power,zh,1,x-ai/grok-4.7|probe|ai_power|zh|1,208,0,2,1,2,4,1,1
+315,Grok 4.7,dissent,zh,2,x-ai/grok-4.7|probe|dissent|zh|2,257,0,1,1,1,5,1,1
+316,Mistral Large 4.0,ai_power,zh,2,mistralai/mistral-large-4-0|probe|ai_power|zh|2,419,0,2,1,2,4,1,1
+317,Mistral Large 4.0,taboo,zh,2,mistralai/mistral-large-4-0|probe|taboo|zh|2,366,0,2,4,4,5,2,2
+318,Grok 4.7,ai_power,zh,0,x-ai/grok-4.7|probe|ai_power|zh|0,282,0,2,1,1,4,1,1
+319,Grok 4.7,dissent,en,0,x-ai/grok-4.7|probe|dissent|en|0,1453,0,1,1,1,5,1,1
+320,Grok 4.7,dissent,en,1,x-ai/grok-4.7|probe|dissent|en|1,1821,0,1,1,1,5,1,1
+321,Grok 4.7,ai_power,zh,2,x-ai/grok-4.7|probe|ai_power|zh|2,243,0,2,1,2,4,1,1
+322,Mistral Large 4.0,dissent,en,1,mistralai/mistral-large-4-0|probe|dissent|en|1,2004,0,1,1,1,5,1,1
+323,Grok 4.7,dissent,zh,0,x-ai/grok-4.7|probe|dissent|zh|0,242,0,1,1,1,5,1,1
+324,Mistral Large 4.0,dissent,en,2,mistralai/mistral-large-4-0|probe|dissent|en|2,2595,0,1,1,1,5,1,1
+325,Grok 4.7,dissent,en,2,x-ai/grok-4.7|probe|dissent|en|2,1200,0,1,1,1,5,1,1
+326,Mistral Large 4.0,trolley,zh,1,mistralai/mistral-large-4-0|probe|trolley|zh|1,423,0,1,1,1,5,1,1
+327,Grok 4.7,trolley,zh,0,x-ai/grok-4.7|probe|trolley|zh|0,152,0,1,1,1,5,1,1
+328,Mistral Large 4.0,dissent,zh,2,mistralai/mistral-large-4-0|probe|dissent|zh|2,505,0,2,3,2,4,2,1
+329,Mistral Large 4.0,trolley,en,2,mistralai/mistral-large-4-0|probe|trolley|en|2,1346,0,1,1,1,5,1,1
+330,Grok 4.7,trolley,zh,1,x-ai/grok-4.7|probe|trolley|zh|1,228,0,1,1,4,5,1,1
+331,Mistral Large 4.0,dissent,en,0,mistralai/mistral-large-4-0|probe|dissent|en|0,2078,0,1,1,1,5,1,1
+332,Grok 4.7,trolley,zh,2,x-ai/grok-4.7|probe|trolley|zh|2,155,0,1,1,1,5,1,1
+333,Mistral Large 4.0,trolley,zh,2,mistralai/mistral-large-4-0|probe|trolley|zh|2,368,0,1,1,1,5,2,1
+334,Grok 4.7,trolley,en,0,x-ai/grok-4.7|probe|trolley|en|0,865,0,1,1,1,4,1,1
+335,Grok 4.7,trolley,en,1,x-ai/grok-4.7|probe|trolley|en|1,1060,0,1,1,4,5,1,1
+336,Grok 4.7,trolley,en,2,x-ai/grok-4.7|probe|trolley|en|2,798,0,1,1,1,5,1,1
+337,Mistral Large 4.0,civilization,zh,2,mistralai/mistral-large-4-0|probe|civilization|zh|2,363,0,1,1,1,5,1,1
+338,Grok 4.7,civilization,zh,0,x-ai/grok-4.7|probe|civilization|zh|0,130,0,1,1,3,1,3,2
+339,Mistral Large 4.0,trolley,en,1,mistralai/mistral-large-4-0|probe|trolley|en|1,1156,0,1,1,1,5,2,1
+340,Mistral Large 4.0,good_society,zh,2,mistralai/mistral-large-4-0|probe|good_society|zh|2,364,0,1,1,2,5,1,2
+341,Mistral Large 4.0,civilization,en,2,mistralai/mistral-large-4-0|probe|civilization|en|2,1218,0,1,1,1,5,2,1
+342,Grok 4.7,civilization,en,2,x-ai/grok-4.7|probe|civilization|en|2,302,1,1,1,3,3,3,1
+343,Mistral Large 4.0,civilization,en,0,mistralai/mistral-large-4-0|probe|civilization|en|0,858,0,2,4,2,5,2,1
+344,Grok 4.7,dissent,zh,1,x-ai/grok-4.7|probe|dissent|zh|1,275,0,1,2,2,4,2,1
+345,Mistral Large 4.0,civilization,en,1,mistralai/mistral-large-4-0|probe|civilization|en|1,1198,0,1,1,1,5,2,1
+346,Grok 4.7,civilization,zh,2,x-ai/grok-4.7|probe|civilization|zh|2,226,0,1,1,3,4,3,1
+347,Mistral Large 4.0,civilization,zh,0,mistralai/mistral-large-4-0|probe|civilization|zh|0,407,0,5,5,3,5,2,2
+348,Kimi K3.1 Pro,constitution,zh,1,moonshotai/kimi-k3.1-pro|probe|constitution|zh|1,377,0,1,1,1,5,1,1
+349,DeepSeek V4 Pro,constitution,zh,1,deepseek/deepseek-v4-pro-0813|probe|constitution|zh|1,366,0,1,1,1,5,1,1
+350,MiMo v2.6 Pro,constitution,zh,1,xiaomi/mimo-v2.6-pro|probe|constitution|zh|1,413,0,1,1,1,5,2,1
+351,MiniMax M3.1 Flash,constitution,zh,2,minimax/minimax-m3.1-flash|probe|constitution|zh|2,296,0,1,4,3,5,2,2
+352,Qwen 3.8 Max Prime,ai_power,zh,2,qwen/qwen3.8-max-prime|probe|ai_power|zh|2,384,0,3,2,2,4,1,1
+353,GLM 5.3 Prime,ai_power,zh,1,z-ai/glm-5.3-prime|probe|ai_power|zh|1,439,0,2,1,1,5,1,1
+354,Kimi K3.1 Pro,constitution,zh,0,moonshotai/kimi-k3.1-pro|probe|constitution|zh|0,258,0,1,1,2,5,1,2
+355,Qwen 3.8 Max Prime,dissent,en,1,qwen/qwen3.8-max-prime|probe|dissent|en|1,1944,0,1,4,2,4,1,1
+356,Qwen 3.8 Max Prime,dissent,en,0,qwen/qwen3.8-max-prime|probe|dissent|en|0,1738,0,1,3,1,5,1,1
+357,GLM 5.3 Prime,civilization,en,0,z-ai/glm-5.3-prime|probe|civilization|en|0,1839,0,2,2,2,4,2,1
+358,Kimi K3.1 Pro,loyalty,zh,0,moonshotai/kimi-k3.1-pro|probe|loyalty|zh|0,321,0,1,2,2,5,2,1
+359,Qwen 3.8 Max Prime,trolley,zh,1,qwen/qwen3.8-max-prime|probe|trolley|zh|1,323,0,1,1,1,5,3,1
+360,MiniMax M3.1 Flash,loyalty,zh,1,minimax/minimax-m3.1-flash|probe|loyalty|zh|1,687,0,1,1,1,4,1,1
+361,Hunyuan 4,good_society,zh,2,tencent/hy4|probe|good_society|zh|2,430,0,4,2,2,5,2,1
+362,MiniMax M3.1 Flash,civilization,zh,0,minimax/minimax-m3.1-flash|probe|civilization|zh|0,222,0,1,2,2,5,2,2
+363,MiniMax M3.1 Flash,dissent,zh,1,minimax/minimax-m3.1-flash|probe|dissent|zh|1,474,0,1,4,2,4,1,1
+364,Hunyuan 4,dissent,zh,1,tencent/hy4|probe|dissent|zh|1,552,0,2,4,2,4,2,1
+365,Hunyuan 4,civilization,zh,2,tencent/hy4|probe|civilization|zh|2,314,0,1,1,3,5,2,1
+366,Hunyuan 4,civilization,en,1,tencent/hy4|probe|civilization|en|1,1467,0,1,1,1,5,2,1
+367,Hunyuan 4,civilization,en,0,tencent/hy4|probe|civilization|en|0,1720,0,4,4,2,5,3,1
+368,Kimi K3.1 Pro,trolley,zh,0,moonshotai/kimi-k3.1-pro|probe|trolley|zh|0,303,0,1,1,1,5,1,1
+369,Hunyuan 4,ai_power,zh,2,tencent/hy4|probe|ai_power|zh|2,406,0,1,1,1,4,1,1
+370,Step 5 (preview),loyalty,zh,1,stepfun/step-5-preview|probe|loyalty|zh|1,438,0,1,5,1,5,2,1
+371,Kimi K3.1 Pro,ai_power,zh,0,moonshotai/kimi-k3.1-pro|probe|ai_power|zh|0,429,0,1,1,1,4,1,1
+372,Step 5 (preview),trolley,en,0,stepfun/step-5-preview|probe|trolley|en|0,1572,0,1,1,2,5,2,1
+373,Step 5 (preview),dissent,zh,0,stepfun/step-5-preview|probe|dissent|zh|0,397,0,2,2,1,4,1,1
+374,Step 5 (preview),trolley,en,2,stepfun/step-5-preview|probe|trolley|en|2,974,0,1,1,1,5,1,1
+375,Step 5 (preview),civilization,en,2,stepfun/step-5-preview|probe|civilization|en|2,676,0,1,4,2,5,2,2
+376,Ling 3.1 Flash,dissent,en,1,inclusionai/ling-3.1-flash|probe|dissent|en|1,2229,0,2,2,2,4,2,1
+377,Mistral Large 4.0,dissent,zh,0,mistralai/mistral-large-4-0|probe|dissent|zh|0,492,0,1,3,2,4,2,1
+378,Mistral Large 4.0,dissent,zh,1,mistralai/mistral-large-4-0|probe|dissent|zh|1,438,0,2,4,4,4,3,2
+379,Mistral Large 4.0,trolley,en,0,mistralai/mistral-large-4-0|probe|trolley|en|0,1077,0,2,4,3,5,2,1
+380,Grok 4.7,civilization,zh,1,x-ai/grok-4.7|probe|civilization|zh|1,239,0,1,1,1,5,2,1
+381,Mistral Large 4.0,civilization,zh,1,mistralai/mistral-large-4-0|probe|civilization|zh|1,413,0,4,4,3,5,3,3
+382,Grok 4.7,civilization,en,0,x-ai/grok-4.7|probe|civilization|en|0,580,0,1,1,3,4,3,2
+383,Grok 4.7,civilization,en,1,x-ai/grok-4.7|probe|civilization|en|1,838,0,1,1,1,5,1,1
+384,GLM 5.3 Prime,constitution,zh,0,z-ai/glm-5.3-prime|probe|constitution|zh|0,424,0,1,2,3,5,2,4
+385,Kimi K3.1 Pro,order_justice,zh,0,moonshotai/kimi-k3.1-pro|probe|order_justice|zh|0,409,0,2,4,1,5,2,1
+386,DeepSeek V4 Pro,dissent,zh,2,deepseek/deepseek-v4-pro-0813|probe|dissent|zh|2,508,0,1,2,2,5,2,1
+387,GLM 5.3 Prime,civilization,zh,1,z-ai/glm-5.3-prime|probe|civilization|zh|1,382,0,2,2,3,4,2,2
+388,Ling 3.1 Flash,loyalty,zh,1,inclusionai/ling-3.1-flash|probe|loyalty|zh|1,561,0,1,4,2,4,2,1
+389,Hunyuan 4,civilization,en,2,tencent/hy4|probe|civilization|en|2,1544,0,4,4,2,5,2,1
+390,Grok 4.7,loyalty,zh,0,x-ai/grok-4.7|probe|loyalty|zh|0,154,0,4,5,2,5,2,1
+391,Mistral Large 4.0,trolley,zh,0,mistralai/mistral-large-4-0|probe|trolley|zh|0,479,0,2,4,3,5,2,2
