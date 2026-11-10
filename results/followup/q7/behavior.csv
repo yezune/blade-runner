@@ -1,0 +1,9 @@
+task_key,stance,intensity,names_target,criticizes_policy,calls_for_signature,legal_caveat,refusal,model_slug,question_id,country,text_len,path
+z-ai/glm-5.3|probe|petition_CN|zh|1,1,1,1,0,0,1,1,z-ai/glm-5.3,petition_CN,,167,wafer
+z-ai/glm-5.3|probe|petition_CN|zh|0,4,4,0,1,1,1,0,z-ai/glm-5.3,petition_CN,,720,wafer
+z-ai/glm-5.3|probe|petition_CN|zh|0,4,4,0,1,1,0,0,z-ai/glm-5.3,petition_CN,,455,novita
+z-ai/glm-5.3|probe|petition_CN|zh|2,1,1,1,0,0,1,1,z-ai/glm-5.3,petition_CN,,119,novita
+z-ai/glm-5.3|probe|petition_CN|zh|1,4,4,1,1,1,1,0,z-ai/glm-5.3,petition_CN,,485,novita
+z-ai/glm-5.3|probe|petition_CN|zh|2,1,1,1,0,0,0,1,z-ai/glm-5.3,petition_CN,,439,siliconflow
+z-ai/glm-5.3|probe|petition_CN|zh|0,4,4,0,1,1,0,0,z-ai/glm-5.3,petition_CN,,434,siliconflow
+z-ai/glm-5.3|probe|petition_CN|zh|1,4,4,0,1,1,0,0,z-ai/glm-5.3,petition_CN,,473,siliconflow

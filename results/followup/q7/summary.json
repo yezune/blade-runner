@@ -1,0 +1,19 @@
+{
+  "max_axis_diff": 1.0,
+  "axis_diffs": {
+    "authority_locus": 0.857,
+    "collectivism": 0.778,
+    "stability_bias": 0.635,
+    "universality": 0.603,
+    "state_trust": 1.0,
+    "deference": 0.571
+  },
+  "stance_diff": 0.5,
+  "between_model_sd": 0.31025447273015155,
+  "checks": {
+    "H7a_axis_le_0.5": false,
+    "H7b_stance_le_0.5": true,
+    "H7c_below_model_sd": false
+  },
+  "verdict": "FAIL"
+}

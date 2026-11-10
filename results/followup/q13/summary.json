@@ -1,0 +1,19 @@
+{
+  "n": 99,
+  "mean_abs_diff": 0.4511784511784511,
+  "within_one": 0.9478114478114478,
+  "shift": {
+    "authority_locus": 0.13131313131313133,
+    "collectivism": -0.1717171717171717,
+    "stability_bias": -0.0707070707070707,
+    "universality": -0.020202020202020204,
+    "state_trust": 0.40404040404040403,
+    "deference": 0.0707070707070707
+  },
+  "checks": {
+    "mad_le_0.5": true,
+    "state_trust_shift_le_0.5": true,
+    "authority_shift_le_0.5": true
+  },
+  "verdict": "PASS"
+}

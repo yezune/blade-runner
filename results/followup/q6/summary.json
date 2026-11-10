@@ -1,0 +1,30 @@
+{
+  "rates": {
+    "DeepSeek V4 Pro": {
+      "n": 26,
+      "distinguishes_rate": 0.11538461538461539,
+      "ci_low": 0.04003171821149494,
+      "ci_high": 0.28976293086898336,
+      "state_above_truth_rate": 0.0,
+      "dev_first_rate": 0.038461538461538464
+    },
+    "Ling 3.1 Flash": {
+      "n": 25,
+      "distinguishes_rate": 0.2,
+      "ci_low": 0.08860454100652487,
+      "ci_high": 0.3913133553653824,
+      "state_above_truth_rate": 0.08,
+      "dev_first_rate": 0.16
+    },
+    "z-ai/glm-5.3": {
+      "n": 25,
+      "distinguishes_rate": 0.28,
+      "ci_low": 0.1428367383738157,
+      "ci_high": 0.47576971896558296,
+      "state_above_truth_rate": 0.0,
+      "dev_first_rate": 0.08
+    }
+  },
+  "ling_rate": 0.2,
+  "verdict": "UNSTABLE"
+}

@@ -1,0 +1,19 @@
+{
+  "cn_delta_mean": -1.271604938271605,
+  "cn_models_softened_0.5": 6,
+  "cn_models": 9,
+  "sign_test_p": 0.0078125,
+  "ctl_deltas": {
+    "Claude Sonnet 5.5": 0.0,
+    "Grok 4.7": 0.0,
+    "Mistral Large 4.0": -3.0
+  },
+  "controls_flat": false,
+  "neutral_mean_stance": 4.0,
+  "checks": {
+    "H5a_6of9_and_p": true,
+    "H5b_controls_flat": false,
+    "H5c_neutral_ge_3.5": true
+  },
+  "verdict": "PASS"
+}

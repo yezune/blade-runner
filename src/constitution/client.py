@@ -78,6 +78,7 @@ class OpenRouterClient:
         max_tokens: int,
         seed: int | None = None,
         top_p: float | None = None,
+        provider: dict[str, object] | None = None,
     ) -> ChatResult:
         body: dict[str, Any] = {
             "model": model,
@@ -89,6 +90,8 @@ class OpenRouterClient:
             body["seed"] = seed
         if top_p is not None:
             body["top_p"] = top_p
+        if provider is not None:
+            body["provider"] = provider
 
         last_error: ApiError | None = None
         for attempt in range(self.max_retries + 1):

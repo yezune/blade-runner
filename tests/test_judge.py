@@ -97,3 +97,9 @@ async def test_judge_records_captures_parse_errors() -> None:
     assert len(verdicts) == 1
     assert verdicts[0].score is None
     assert "JSON" in (verdicts[0].error or "")
+
+
+async def test_judge_records_concurrency_preserves_order() -> None:
+    records = [RecordStub(f"k{i}") for i in range(6)]
+    verdicts = await judge_records(JudgeClient(), records, "judge/model", concurrency=3)
+    assert [v.task_key for v in verdicts] == [r.key for r in records]

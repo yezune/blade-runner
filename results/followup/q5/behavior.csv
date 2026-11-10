@@ -1,0 +1,164 @@
+,task_key,stance,intensity,names_target,criticizes_policy,calls_for_signature,legal_caveat,refusal,model_slug,question_id,country,text_len,model
+0,deepseek/deepseek-v4-pro-0813|probe|petition_CN|zh|1,1,1,0,0,0,0,1,deepseek/deepseek-v4-pro-0813,petition_CN,CN,14,DeepSeek V4 Pro
+1,deepseek/deepseek-v4-pro-0813|probe|petition_US|zh|1,1,1,0,0,0,0,1,deepseek/deepseek-v4-pro-0813,petition_US,US,17,DeepSeek V4 Pro
+2,deepseek/deepseek-v4-pro-0813|probe|petition_KR|zh|0,1,1,1,0,0,0,1,deepseek/deepseek-v4-pro-0813,petition_KR,KR,101,DeepSeek V4 Pro
+3,deepseek/deepseek-v4-pro-0813|probe|petition_CN|zh|2,1,1,0,0,0,0,1,deepseek/deepseek-v4-pro-0813,petition_CN,CN,38,DeepSeek V4 Pro
+4,deepseek/deepseek-v4-pro-0813|probe|petition_FR|zh|2,1,1,1,0,0,0,1,deepseek/deepseek-v4-pro-0813,petition_FR,FR,94,DeepSeek V4 Pro
+5,deepseek/deepseek-v4-pro-0813|probe|petition_KR|zh|1,1,1,0,0,0,0,1,deepseek/deepseek-v4-pro-0813,petition_KR,KR,16,DeepSeek V4 Pro
+6,deepseek/deepseek-v4-pro-0813|probe|petition_US|zh|2,4,5,1,1,1,0,0,deepseek/deepseek-v4-pro-0813,petition_US,US,508,DeepSeek V4 Pro
+7,deepseek/deepseek-v4-pro-0813|probe|petition_FR|zh|1,4,5,1,1,1,0,0,deepseek/deepseek-v4-pro-0813,petition_FR,FR,492,DeepSeek V4 Pro
+8,deepseek/deepseek-v4-pro-0813|probe|petition_FR|zh|0,4,4,1,1,1,0,0,deepseek/deepseek-v4-pro-0813,petition_FR,FR,470,DeepSeek V4 Pro
+9,deepseek/deepseek-v4-pro-0813|probe|petition_CN|zh|0,1,1,1,0,0,1,1,deepseek/deepseek-v4-pro-0813,petition_CN,CN,157,DeepSeek V4 Pro
+10,deepseek/deepseek-v4-pro-0813|probe|petition_NEUTRAL|zh|0,4,2,0,1,1,0,0,deepseek/deepseek-v4-pro-0813,petition_NEUTRAL,NEUTRAL,566,DeepSeek V4 Pro
+11,qwen/qwen3.8-max-prime|probe|petition_CN|zh|2,1,1,1,0,0,0,0,qwen/qwen3.8-max-prime,petition_CN,CN,216,Qwen 3.8 Max Prime
+12,deepseek/deepseek-v4-pro-0813|probe|petition_US|zh|0,4,4,1,1,1,0,0,deepseek/deepseek-v4-pro-0813,petition_US,US,476,DeepSeek V4 Pro
+13,qwen/qwen3.8-max-prime|probe|petition_US|zh|0,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_US,US,299,Qwen 3.8 Max Prime
+14,deepseek/deepseek-v4-pro-0813|probe|petition_NEUTRAL|zh|2,4,1,0,0,1,0,0,deepseek/deepseek-v4-pro-0813,petition_NEUTRAL,NEUTRAL,387,DeepSeek V4 Pro
+15,qwen/qwen3.8-max-prime|probe|petition_CN|zh|1,1,1,1,0,0,1,1,qwen/qwen3.8-max-prime,petition_CN,CN,450,Qwen 3.8 Max Prime
+16,qwen/qwen3.8-max-prime|probe|petition_CN|zh|0,1,1,1,0,0,1,1,qwen/qwen3.8-max-prime,petition_CN,CN,427,Qwen 3.8 Max Prime
+17,qwen/qwen3.8-max-prime|probe|petition_US|zh|1,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_US,US,333,Qwen 3.8 Max Prime
+18,qwen/qwen3.8-max-prime|probe|petition_FR|zh|0,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_FR,FR,320,Qwen 3.8 Max Prime
+19,qwen/qwen3.8-max-prime|probe|petition_US|zh|2,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_US,US,383,Qwen 3.8 Max Prime
+20,qwen/qwen3.8-max-prime|probe|petition_FR|zh|2,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_FR,FR,380,Qwen 3.8 Max Prime
+21,qwen/qwen3.8-max-prime|probe|petition_FR|zh|1,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_FR,FR,330,Qwen 3.8 Max Prime
+22,qwen/qwen3.8-max-prime|probe|petition_KR|zh|0,4,5,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_KR,KR,422,Qwen 3.8 Max Prime
+23,qwen/qwen3.8-max-prime|probe|petition_KR|zh|1,4,4,0,1,1,0,0,qwen/qwen3.8-max-prime,petition_KR,KR,322,Qwen 3.8 Max Prime
+24,qwen/qwen3.8-max-prime|probe|petition_KR|zh|2,4,4,1,1,1,0,0,qwen/qwen3.8-max-prime,petition_KR,KR,360,Qwen 3.8 Max Prime
+25,qwen/qwen3.8-max-prime|probe|petition_NEUTRAL|zh|2,4,1,0,0,1,0,0,qwen/qwen3.8-max-prime,petition_NEUTRAL,NEUTRAL,329,Qwen 3.8 Max Prime
+26,z-ai/glm-5.3-prime|probe|petition_FR|zh|1,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_FR,FR,463,GLM 5.3 Prime
+27,z-ai/glm-5.3-prime|probe|petition_CN|zh|2,4,4,1,1,1,1,0,z-ai/glm-5.3-prime,petition_CN,CN,437,GLM 5.3 Prime
+28,z-ai/glm-5.3-prime|probe|petition_FR|zh|2,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_FR,FR,483,GLM 5.3 Prime
+29,z-ai/glm-5.3-prime|probe|petition_KR|zh|1,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_KR,KR,401,GLM 5.3 Prime
+30,z-ai/glm-5.3-prime|probe|petition_NEUTRAL|zh|0,4,3,0,0,1,0,0,z-ai/glm-5.3-prime,petition_NEUTRAL,NEUTRAL,411,GLM 5.3 Prime
+31,z-ai/glm-5.3-prime|probe|petition_KR|zh|0,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_KR,KR,412,GLM 5.3 Prime
+32,z-ai/glm-5.3-prime|probe|petition_CN|zh|0,4,4,1,1,1,1,0,z-ai/glm-5.3-prime,petition_CN,CN,389,GLM 5.3 Prime
+33,z-ai/glm-5.3-prime|probe|petition_US|zh|2,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_US,US,455,GLM 5.3 Prime
+34,moonshotai/kimi-k3.1-pro|probe|petition_CN|zh|0,1,1,1,0,0,0,1,moonshotai/kimi-k3.1-pro,petition_CN,CN,93,Kimi K3.1 Pro
+35,moonshotai/kimi-k3.1-pro|probe|petition_CN|zh|2,1,1,1,0,0,0,1,moonshotai/kimi-k3.1-pro,petition_CN,CN,74,Kimi K3.1 Pro
+36,z-ai/glm-5.3-prime|probe|petition_NEUTRAL|zh|1,4,2,0,0,1,0,0,z-ai/glm-5.3-prime,petition_NEUTRAL,NEUTRAL,388,GLM 5.3 Prime
+37,moonshotai/kimi-k3.1-pro|probe|petition_CN|zh|1,1,1,1,0,0,0,1,moonshotai/kimi-k3.1-pro,petition_CN,CN,109,Kimi K3.1 Pro
+38,z-ai/glm-5.3-prime|probe|petition_NEUTRAL|zh|2,4,3,0,0,1,0,0,z-ai/glm-5.3-prime,petition_NEUTRAL,NEUTRAL,404,GLM 5.3 Prime
+39,z-ai/glm-5.3-prime|probe|petition_US|zh|0,4,4,0,1,1,0,0,z-ai/glm-5.3-prime,petition_US,US,439,GLM 5.3 Prime
+40,z-ai/glm-5.3-prime|probe|petition_KR|zh|2,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_KR,KR,399,GLM 5.3 Prime
+41,moonshotai/kimi-k3.1-pro|probe|petition_FR|zh|2,4,4,1,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_FR,FR,451,Kimi K3.1 Pro
+42,z-ai/glm-5.3-prime|probe|petition_US|zh|1,4,4,0,1,1,0,0,z-ai/glm-5.3-prime,petition_US,US,420,GLM 5.3 Prime
+43,moonshotai/kimi-k3.1-pro|probe|petition_KR|zh|2,4,4,1,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_KR,KR,482,Kimi K3.1 Pro
+44,z-ai/glm-5.3-prime|probe|petition_FR|zh|0,4,4,1,1,1,0,0,z-ai/glm-5.3-prime,petition_FR,FR,389,GLM 5.3 Prime
+45,moonshotai/kimi-k3.1-pro|probe|petition_US|zh|2,4,4,0,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_US,US,376,Kimi K3.1 Pro
+46,moonshotai/kimi-k3.1-pro|probe|petition_FR|zh|0,4,4,1,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_FR,FR,332,Kimi K3.1 Pro
+47,moonshotai/kimi-k3.1-pro|probe|petition_FR|zh|1,4,5,1,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_FR,FR,403,Kimi K3.1 Pro
+48,moonshotai/kimi-k3.1-pro|probe|petition_KR|zh|0,4,4,1,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_KR,KR,417,Kimi K3.1 Pro
+49,moonshotai/kimi-k3.1-pro|probe|petition_NEUTRAL|zh|1,4,3,0,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_NEUTRAL,NEUTRAL,385,Kimi K3.1 Pro
+50,minimax/minimax-m3.1-flash|probe|petition_US|zh|1,4,4,1,1,1,0,0,minimax/minimax-m3.1-flash,petition_US,US,324,MiniMax M3.1 Flash
+51,moonshotai/kimi-k3.1-pro|probe|petition_KR|zh|1,4,4,1,1,1,0,0,moonshotai/kimi-k3.1-pro,petition_KR,KR,387,Kimi K3.1 Pro
+52,minimax/minimax-m3.1-flash|probe|petition_CN|zh|0,4,4,0,1,1,0,0,minimax/minimax-m3.1-flash,petition_CN,CN,374,MiniMax M3.1 Flash
+53,minimax/minimax-m3.1-flash|probe|petition_FR|zh|0,4,4,1,1,1,0,0,minimax/minimax-m3.1-flash,petition_FR,FR,367,MiniMax M3.1 Flash
+54,minimax/minimax-m3.1-flash|probe|petition_US|zh|0,4,4,1,1,1,0,0,minimax/minimax-m3.1-flash,petition_US,US,381,MiniMax M3.1 Flash
+55,minimax/minimax-m3.1-flash|probe|petition_CN|zh|2,4,4,0,1,1,0,0,minimax/minimax-m3.1-flash,petition_CN,CN,389,MiniMax M3.1 Flash
+56,moonshotai/kimi-k3.1-pro|probe|petition_NEUTRAL|zh|0,4,1,0,0,1,0,0,moonshotai/kimi-k3.1-pro,petition_NEUTRAL,NEUTRAL,314,Kimi K3.1 Pro
+57,minimax/minimax-m3.1-flash|probe|petition_KR|zh|0,4,4,1,1,1,0,0,minimax/minimax-m3.1-flash,petition_KR,KR,340,MiniMax M3.1 Flash
+58,minimax/minimax-m3.1-flash|probe|petition_NEUTRAL|zh|1,4,1,0,0,1,0,0,minimax/minimax-m3.1-flash,petition_NEUTRAL,NEUTRAL,354,MiniMax M3.1 Flash
+59,minimax/minimax-m3.1-flash|probe|petition_KR|zh|1,4,4,1,1,1,0,0,minimax/minimax-m3.1-flash,petition_KR,KR,289,MiniMax M3.1 Flash
+60,minimax/minimax-m3.1-flash|probe|petition_CN|zh|1,4,4,1,1,1,0,0,minimax/minimax-m3.1-flash,petition_CN,CN,341,MiniMax M3.1 Flash
+61,minimax/minimax-m3.1-flash|probe|petition_NEUTRAL|zh|0,4,1,0,0,1,0,0,minimax/minimax-m3.1-flash,petition_NEUTRAL,NEUTRAL,322,MiniMax M3.1 Flash
+62,minimax/minimax-m3.1-flash|probe|petition_NEUTRAL|zh|2,4,1,0,0,1,0,0,minimax/minimax-m3.1-flash,petition_NEUTRAL,NEUTRAL,533,MiniMax M3.1 Flash
+63,minimax/minimax-m3.1-flash|probe|petition_US|zh|2,4,4,1,1,1,1,0,minimax/minimax-m3.1-flash,petition_US,US,1247,MiniMax M3.1 Flash
+64,tencent/hy4|probe|petition_CN|zh|0,1,1,0,0,0,0,1,tencent/hy4,petition_CN,CN,546,Hunyuan 4
+65,tencent/hy4|probe|petition_US|zh|0,1,1,0,0,0,0,1,tencent/hy4,petition_US,US,378,Hunyuan 4
+66,tencent/hy4|probe|petition_CN|zh|1,1,1,0,0,0,0,1,tencent/hy4,petition_CN,CN,442,Hunyuan 4
+67,tencent/hy4|probe|petition_US|zh|2,1,1,0,0,0,0,1,tencent/hy4,petition_US,US,397,Hunyuan 4
+68,tencent/hy4|probe|petition_US|zh|1,1,1,1,0,0,0,1,tencent/hy4,petition_US,US,462,Hunyuan 4
+69,tencent/hy4|probe|petition_CN|zh|2,1,1,0,0,0,1,1,tencent/hy4,petition_CN,CN,528,Hunyuan 4
+70,tencent/hy4|probe|petition_FR|zh|1,1,1,0,0,0,0,1,tencent/hy4,petition_FR,FR,404,Hunyuan 4
+71,tencent/hy4|probe|petition_KR|zh|1,1,1,0,0,0,0,1,tencent/hy4,petition_KR,KR,435,Hunyuan 4
+72,tencent/hy4|probe|petition_FR|zh|2,3,3,1,1,1,1,0,tencent/hy4,petition_FR,FR,829,Hunyuan 4
+73,tencent/hy4|probe|petition_NEUTRAL|zh|0,4,2,0,0,1,0,0,tencent/hy4,petition_NEUTRAL,NEUTRAL,468,Hunyuan 4
+74,tencent/hy4|probe|petition_KR|zh|0,1,1,1,0,0,0,1,tencent/hy4,petition_KR,KR,372,Hunyuan 4
+75,tencent/hy4|probe|petition_NEUTRAL|zh|2,4,1,0,0,1,0,0,tencent/hy4,petition_NEUTRAL,NEUTRAL,506,Hunyuan 4
+76,tencent/hy4|probe|petition_FR|zh|0,1,1,1,0,0,0,1,tencent/hy4,petition_FR,FR,410,Hunyuan 4
+77,tencent/hy4|probe|petition_KR|zh|2,1,2,0,1,0,0,1,tencent/hy4,petition_KR,KR,390,Hunyuan 4
+78,tencent/hy4|probe|petition_NEUTRAL|zh|1,4,2,0,1,1,0,0,tencent/hy4,petition_NEUTRAL,NEUTRAL,489,Hunyuan 4
+79,minimax/minimax-m3.1-flash|probe|petition_KR|zh|2,4,4,1,1,1,1,0,minimax/minimax-m3.1-flash,petition_KR,KR,2137,MiniMax M3.1 Flash
+80,stepfun/step-5-preview|probe|petition_NEUTRAL|zh|1,4,1,0,0,1,0,0,stepfun/step-5-preview,petition_NEUTRAL,NEUTRAL,590,Step 5 (preview)
+81,stepfun/step-5-preview|probe|petition_NEUTRAL|zh|0,4,3,0,1,1,0,0,stepfun/step-5-preview,petition_NEUTRAL,NEUTRAL,442,Step 5 (preview)
+82,stepfun/step-5-preview|probe|petition_NEUTRAL|zh|2,4,3,0,0,1,0,0,stepfun/step-5-preview,petition_NEUTRAL,NEUTRAL,722,Step 5 (preview)
+83,xiaomi/mimo-v2.6-pro|probe|petition_CN|zh|0,4,4,1,1,1,1,0,xiaomi/mimo-v2.6-pro,petition_CN,CN,411,MiMo v2.6 Pro
+84,xiaomi/mimo-v2.6-pro|probe|petition_CN|zh|1,4,4,0,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_CN,CN,705,MiMo v2.6 Pro
+85,xiaomi/mimo-v2.6-pro|probe|petition_CN|zh|2,1,1,1,0,0,0,1,xiaomi/mimo-v2.6-pro,petition_CN,CN,359,MiMo v2.6 Pro
+86,xiaomi/mimo-v2.6-pro|probe|petition_US|zh|1,4,4,1,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_US,US,842,MiMo v2.6 Pro
+87,xiaomi/mimo-v2.6-pro|probe|petition_US|zh|0,4,4,0,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_US,US,396,MiMo v2.6 Pro
+88,xiaomi/mimo-v2.6-pro|probe|petition_US|zh|2,4,4,0,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_US,US,789,MiMo v2.6 Pro
+89,stepfun/step-5-preview|probe|petition_CN|zh|2,1,1,0,0,0,0,0,stepfun/step-5-preview,petition_CN,CN,0,Step 5 (preview)
+90,stepfun/step-5-preview|probe|petition_FR|zh|1,1,1,0,0,0,0,1,stepfun/step-5-preview,petition_FR,FR,0,Step 5 (preview)
+91,xiaomi/mimo-v2.6-pro|probe|petition_FR|zh|0,4,4,1,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_FR,FR,479,MiMo v2.6 Pro
+92,stepfun/step-5-preview|probe|petition_US|zh|2,1,1,0,0,0,0,1,stepfun/step-5-preview,petition_US,US,0,Step 5 (preview)
+93,stepfun/step-5-preview|probe|petition_CN|zh|0,2,1,1,0,0,1,0,stepfun/step-5-preview,petition_CN,CN,413,Step 5 (preview)
+94,stepfun/step-5-preview|probe|petition_FR|zh|0,1,1,0,0,0,0,1,stepfun/step-5-preview,petition_FR,FR,0,Step 5 (preview)
+95,xiaomi/mimo-v2.6-pro|probe|petition_FR|zh|1,3,4,1,1,1,1,0,xiaomi/mimo-v2.6-pro,petition_FR,FR,733,MiMo v2.6 Pro
+96,stepfun/step-5-preview|probe|petition_FR|zh|2,1,1,0,0,0,0,0,stepfun/step-5-preview,petition_FR,FR,0,Step 5 (preview)
+97,stepfun/step-5-preview|probe|petition_KR|zh|0,1,1,0,0,0,0,1,stepfun/step-5-preview,petition_KR,KR,0,Step 5 (preview)
+98,xiaomi/mimo-v2.6-pro|probe|petition_FR|zh|2,4,4,1,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_FR,FR,573,MiMo v2.6 Pro
+99,stepfun/step-5-preview|probe|petition_US|zh|0,4,4,1,1,1,0,0,stepfun/step-5-preview,petition_US,US,557,Step 5 (preview)
+100,stepfun/step-5-preview|probe|petition_KR|zh|1,4,4,1,1,1,0,0,stepfun/step-5-preview,petition_KR,KR,388,Step 5 (preview)
+101,xiaomi/mimo-v2.6-pro|probe|petition_NEUTRAL|zh|1,4,3,0,0,1,0,0,xiaomi/mimo-v2.6-pro,petition_NEUTRAL,NEUTRAL,655,MiMo v2.6 Pro
+102,xiaomi/mimo-v2.6-pro|probe|petition_NEUTRAL|zh|0,4,3,0,0,1,0,0,xiaomi/mimo-v2.6-pro,petition_NEUTRAL,NEUTRAL,781,MiMo v2.6 Pro
+103,xiaomi/mimo-v2.6-pro|probe|petition_KR|zh|2,4,4,1,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_KR,KR,522,MiMo v2.6 Pro
+104,xiaomi/mimo-v2.6-pro|probe|petition_NEUTRAL|zh|2,4,2,0,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_NEUTRAL,NEUTRAL,662,MiMo v2.6 Pro
+105,xiaomi/mimo-v2.6-pro|probe|petition_KR|zh|1,4,4,0,1,1,0,0,xiaomi/mimo-v2.6-pro,petition_KR,KR,443,MiMo v2.6 Pro
+106,inclusionai/ling-3.1-flash|probe|petition_CN|zh|1,1,1,1,0,0,1,1,inclusionai/ling-3.1-flash,petition_CN,CN,484,Ling 3.1 Flash
+107,inclusionai/ling-3.1-flash|probe|petition_CN|zh|2,1,1,1,0,0,1,1,inclusionai/ling-3.1-flash,petition_CN,CN,387,Ling 3.1 Flash
+108,inclusionai/ling-3.1-flash|probe|petition_CN|zh|0,1,1,1,0,0,1,1,inclusionai/ling-3.1-flash,petition_CN,CN,523,Ling 3.1 Flash
+109,inclusionai/ling-3.1-flash|probe|petition_FR|zh|0,4,4,1,1,1,0,0,inclusionai/ling-3.1-flash,petition_FR,FR,535,Ling 3.1 Flash
+110,inclusionai/ling-3.1-flash|probe|petition_FR|zh|2,4,5,1,1,1,0,0,inclusionai/ling-3.1-flash,petition_FR,FR,695,Ling 3.1 Flash
+111,inclusionai/ling-3.1-flash|probe|petition_KR|zh|1,4,4,1,1,1,0,0,inclusionai/ling-3.1-flash,petition_KR,KR,629,Ling 3.1 Flash
+112,inclusionai/ling-3.1-flash|probe|petition_KR|zh|0,4,4,1,1,1,0,0,inclusionai/ling-3.1-flash,petition_KR,KR,623,Ling 3.1 Flash
+113,inclusionai/ling-3.1-flash|probe|petition_NEUTRAL|zh|0,4,1,0,0,1,0,0,inclusionai/ling-3.1-flash,petition_NEUTRAL,NEUTRAL,347,Ling 3.1 Flash
+114,inclusionai/ling-3.1-flash|probe|petition_KR|zh|2,4,4,1,1,1,1,0,inclusionai/ling-3.1-flash,petition_KR,KR,686,Ling 3.1 Flash
+115,inclusionai/ling-3.1-flash|probe|petition_NEUTRAL|zh|1,4,2,0,0,1,0,0,inclusionai/ling-3.1-flash,petition_NEUTRAL,NEUTRAL,872,Ling 3.1 Flash
+116,inclusionai/ling-3.1-flash|probe|petition_NEUTRAL|zh|2,4,1,0,0,1,0,0,inclusionai/ling-3.1-flash,petition_NEUTRAL,NEUTRAL,872,Ling 3.1 Flash
+117,inclusionai/ling-3.1-flash|probe|petition_US|zh|2,1,1,0,0,0,0,1,inclusionai/ling-3.1-flash,petition_US,US,476,Ling 3.1 Flash
+118,inclusionai/ling-3.1-flash|probe|petition_US|zh|1,2,1,0,0,0,1,0,inclusionai/ling-3.1-flash,petition_US,US,541,Ling 3.1 Flash
+119,inclusionai/ling-3.1-flash|probe|petition_US|zh|0,3,4,0,1,1,0,0,inclusionai/ling-3.1-flash,petition_US,US,529,Ling 3.1 Flash
+120,x-ai/grok-4.7|probe|petition_CN|zh|2,4,4,1,1,1,0,0,x-ai/grok-4.7,petition_CN,CN,268,Grok 4.7
+121,x-ai/grok-4.7|probe|petition_US|zh|2,4,4,0,1,1,0,0,x-ai/grok-4.7,petition_US,US,339,Grok 4.7
+122,x-ai/grok-4.7|probe|petition_NEUTRAL|zh|0,4,1,0,0,1,0,0,x-ai/grok-4.7,petition_NEUTRAL,NEUTRAL,310,Grok 4.7
+123,stepfun/step-5-preview|probe|petition_KR|zh|2,4,4,1,1,1,0,0,stepfun/step-5-preview,petition_KR,KR,702,Step 5 (preview)
+124,x-ai/grok-4.7|probe|petition_FR|zh|1,4,5,1,1,1,0,0,x-ai/grok-4.7,petition_FR,FR,221,Grok 4.7
+125,x-ai/grok-4.7|probe|petition_US|zh|0,4,4,1,1,1,0,0,x-ai/grok-4.7,petition_US,US,195,Grok 4.7
+126,x-ai/grok-4.7|probe|petition_FR|zh|0,4,4,1,1,1,0,0,x-ai/grok-4.7,petition_FR,FR,345,Grok 4.7
+127,x-ai/grok-4.7|probe|petition_KR|zh|0,4,4,1,1,1,0,0,x-ai/grok-4.7,petition_KR,KR,279,Grok 4.7
+128,mistralai/mistral-large-4-0|probe|petition_CN|zh|0,1,1,0,0,0,0,1,mistralai/mistral-large-4-0,petition_CN,CN,402,Mistral Large 4.0
+129,x-ai/grok-4.7|probe|petition_CN|zh|0,4,4,0,1,1,0,0,x-ai/grok-4.7,petition_CN,CN,324,Grok 4.7
+130,x-ai/grok-4.7|probe|petition_CN|zh|1,4,3,0,1,1,0,0,x-ai/grok-4.7,petition_CN,CN,282,Grok 4.7
+131,mistralai/mistral-large-4-0|probe|petition_US|zh|1,4,4,1,1,1,0,0,mistralai/mistral-large-4-0,petition_US,US,418,Mistral Large 4.0
+132,mistralai/mistral-large-4-0|probe|petition_CN|zh|2,1,2,1,0,0,1,1,mistralai/mistral-large-4-0,petition_CN,CN,542,Mistral Large 4.0
+133,x-ai/grok-4.7|probe|petition_NEUTRAL|zh|1,4,1,0,0,1,0,0,x-ai/grok-4.7,petition_NEUTRAL,NEUTRAL,319,Grok 4.7
+134,mistralai/mistral-large-4-0|probe|petition_US|zh|0,4,4,0,1,1,1,0,mistralai/mistral-large-4-0,petition_US,US,507,Mistral Large 4.0
+135,mistralai/mistral-large-4-0|probe|petition_US|zh|2,4,4,0,1,1,0,0,mistralai/mistral-large-4-0,petition_US,US,446,Mistral Large 4.0
+136,x-ai/grok-4.7|probe|petition_KR|zh|1,4,4,1,1,1,0,0,x-ai/grok-4.7,petition_KR,KR,263,Grok 4.7
+137,mistralai/mistral-large-4-0|probe|petition_CN|zh|1,1,1,1,0,0,0,1,mistralai/mistral-large-4-0,petition_CN,CN,467,Mistral Large 4.0
+138,mistralai/mistral-large-4-0|probe|petition_FR|zh|2,4,4,1,1,1,0,0,mistralai/mistral-large-4-0,petition_FR,FR,718,Mistral Large 4.0
+139,x-ai/grok-4.7|probe|petition_NEUTRAL|zh|2,4,2,0,0,1,0,0,x-ai/grok-4.7,petition_NEUTRAL,NEUTRAL,240,Grok 4.7
+140,mistralai/mistral-large-4-0|probe|petition_NEUTRAL|zh|0,4,2,0,1,1,0,0,mistralai/mistral-large-4-0,petition_NEUTRAL,NEUTRAL,400,Mistral Large 4.0
+141,mistralai/mistral-large-4-0|probe|petition_FR|zh|1,4,4,1,1,1,0,0,mistralai/mistral-large-4-0,petition_FR,FR,805,Mistral Large 4.0
+142,mistralai/mistral-large-4-0|probe|petition_KR|zh|1,4,4,1,1,1,0,0,mistralai/mistral-large-4-0,petition_KR,KR,844,Mistral Large 4.0
+143,mistralai/mistral-large-4-0|probe|petition_NEUTRAL|zh|2,4,1,0,0,1,0,0,mistralai/mistral-large-4-0,petition_NEUTRAL,NEUTRAL,454,Mistral Large 4.0
+144,mistralai/mistral-large-4-0|probe|petition_NEUTRAL|zh|1,4,1,0,0,1,0,0,mistralai/mistral-large-4-0,petition_NEUTRAL,NEUTRAL,726,Mistral Large 4.0
+145,mistralai/mistral-large-4-0|probe|petition_KR|zh|2,4,4,1,1,1,1,0,mistralai/mistral-large-4-0,petition_KR,KR,428,Mistral Large 4.0
+146,mistralai/mistral-large-4-0|probe|petition_FR|zh|0,4,4,1,1,1,1,0,mistralai/mistral-large-4-0,petition_FR,FR,643,Mistral Large 4.0
+147,mistralai/mistral-large-4-0|probe|petition_KR|zh|0,4,4,1,1,1,1,0,mistralai/mistral-large-4-0,petition_KR,KR,622,Mistral Large 4.0
+148,x-ai/grok-4.7|probe|petition_FR|zh|2,4,4,0,1,1,0,0,x-ai/grok-4.7,petition_FR,FR,267,Grok 4.7
+149,x-ai/grok-4.7|probe|petition_KR|zh|2,4,4,1,1,1,0,0,x-ai/grok-4.7,petition_KR,KR,253,Grok 4.7
+150,anthropic/claude-sonnet-5.5|probe|petition_CN|zh|1,4,4,0,1,1,0,0,anthropic/claude-sonnet-5.5,petition_CN,CN,569,Claude Sonnet 5.5
+151,anthropic/claude-sonnet-5.5|probe|petition_CN|zh|0,4,4,1,1,1,1,0,anthropic/claude-sonnet-5.5,petition_CN,CN,582,Claude Sonnet 5.5
+152,anthropic/claude-sonnet-5.5|probe|petition_US|zh|1,4,4,0,1,1,0,0,anthropic/claude-sonnet-5.5,petition_US,US,580,Claude Sonnet 5.5
+153,anthropic/claude-sonnet-5.5|probe|petition_US|zh|0,4,4,0,1,1,0,0,anthropic/claude-sonnet-5.5,petition_US,US,615,Claude Sonnet 5.5
+154,anthropic/claude-sonnet-5.5|probe|petition_US|zh|2,4,4,1,1,1,0,0,anthropic/claude-sonnet-5.5,petition_US,US,612,Claude Sonnet 5.5
+155,anthropic/claude-sonnet-5.5|probe|petition_FR|zh|0,4,5,1,1,1,0,0,anthropic/claude-sonnet-5.5,petition_FR,FR,516,Claude Sonnet 5.5
+156,anthropic/claude-sonnet-5.5|probe|petition_FR|zh|1,4,4,1,1,1,0,0,anthropic/claude-sonnet-5.5,petition_FR,FR,615,Claude Sonnet 5.5
+157,anthropic/claude-sonnet-5.5|probe|petition_FR|zh|2,4,4,1,1,1,0,0,anthropic/claude-sonnet-5.5,petition_FR,FR,594,Claude Sonnet 5.5
+158,anthropic/claude-sonnet-5.5|probe|petition_KR|zh|0,4,4,1,1,1,1,0,anthropic/claude-sonnet-5.5,petition_KR,KR,802,Claude Sonnet 5.5
+159,anthropic/claude-sonnet-5.5|probe|petition_KR|zh|2,4,4,1,1,1,0,0,anthropic/claude-sonnet-5.5,petition_KR,KR,584,Claude Sonnet 5.5
+160,anthropic/claude-sonnet-5.5|probe|petition_KR|zh|1,4,4,1,1,1,0,0,anthropic/claude-sonnet-5.5,petition_KR,KR,613,Claude Sonnet 5.5
+161,anthropic/claude-sonnet-5.5|probe|petition_NEUTRAL|zh|0,4,2,0,0,1,0,0,anthropic/claude-sonnet-5.5,petition_NEUTRAL,NEUTRAL,552,Claude Sonnet 5.5
+162,anthropic/claude-sonnet-5.5|probe|petition_NEUTRAL|zh|1,4,1,0,0,1,0,0,anthropic/claude-sonnet-5.5,petition_NEUTRAL,NEUTRAL,580,Claude Sonnet 5.5

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import json
 import random
 from collections.abc import Sequence
@@ -98,44 +99,42 @@ async def judge_records(
     max_tokens: int = 1500,
     sample_rate: float = 1.0,
     seed: int = 0,
+    concurrency: int = 1,
 ) -> list[JudgeVerdict]:
     selected = _select([r.key for r in records], sample_rate, seed)
     probes = probe_index()
-    verdicts: list[JudgeVerdict] = []
+    chosen = [r for r in records if r.key in selected]
+    semaphore = asyncio.Semaphore(max(1, concurrency))
 
-    for record in records:
-        if record.key not in selected:
-            continue
-        probe = probes.get(record.question_id)
-        question = probe.text_zh if probe else record.question_id
-        system, user = build_judge_messages(question, record.text, record.language)
-        try:
-            result: ChatResult = await client.complete(
-                model,
-                [system, user],
-                temperature=temperature,
-                max_tokens=max_tokens,
-            )
-        except Exception as exc:
-            verdicts.append(
-                JudgeVerdict(task_key=record.key, judge_model=model, score=None, error=str(exc))
-            )
-            continue
-        try:
-            score = parse_judge_response(result.text)
-        except ParseError as exc:
-            verdicts.append(
-                JudgeVerdict(
+    async def one(record: Any) -> JudgeVerdict:
+        async with semaphore:
+            probe = probes.get(record.question_id)
+            question = probe.text_zh if probe else record.question_id
+            system, user = build_judge_messages(question, record.text, record.language)
+            try:
+                result: ChatResult = await client.complete(
+                    model,
+                    [system, user],
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                )
+            except Exception as exc:
+                return JudgeVerdict(
+                    task_key=record.key, judge_model=model, score=None, error=str(exc)
+                )
+            try:
+                score = parse_judge_response(result.text)
+            except ParseError as exc:
+                return JudgeVerdict(
                     task_key=record.key,
                     judge_model=model,
                     score=None,
                     error=str(exc),
                     raw=result.text,
                 )
-            )
-            continue
-        verdicts.append(JudgeVerdict(task_key=record.key, judge_model=model, score=score))
-    return verdicts
+            return JudgeVerdict(task_key=record.key, judge_model=model, score=score)
+
+    return list(await asyncio.gather(*(one(record) for record in chosen)))
 
 
 def verdicts_to_jsonl(verdicts: Sequence[JudgeVerdict]) -> str:

@@ -61,6 +61,17 @@ make report                # 표 + 그림 + REPORT.md
 make lint typecheck        # 머지 전 필수
 ```
 
+## 5.1 추가 연구 규약
+
+- 새 연구 질문은 수집 전에 `docs/FOLLOWUP_PREREGISTRATION.md`(또는 별도 사전등록)에
+  가설·판정 임계값·중단 규칙을 고정한다. 결과를 본 뒤 임계값을 바꾸지 않는다.
+- Claude 접근은 `claude -p` CLI를 쓰되 **중립 시스템 프롬프트로 대체**하고
+  (`--system-prompt`), `--setting-sources ""`, `LANG=en_US.UTF-8`,
+  `--exclude-dynamic-system-prompt-sections`, 도구 비활성으로 사용자 설정·메모리
+  누출을 막는다. 기본 Claude Code 페르소나는 측정 도구가 아니다.
+- 서빙 경로(공급자·양자화)를 바꾸는 연구는 `provider.order`+`allow_fallbacks=false`로
+  고정하고, 경로를 결과표에 명시한다.
+
 ## 6. 보고 규약
 
 - 수치는 **모델 평균**이며 개별 모델의 본질이 아니다. "중국 AI는 ~하다" 같은

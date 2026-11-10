@@ -1,0 +1,61 @@
+{
+  "recovery": {
+    "rho": 0.6769483626304738,
+    "p_one_sided": 0.0084991500849915,
+    "top3_measured": [
+      "universalism",
+      "self_direction",
+      "stimulation"
+    ],
+    "top3_overlap": [
+      "self_direction",
+      "universalism"
+    ]
+  },
+  "axis_means": {
+    "authority_locus": 1.5357142857142858,
+    "collectivism": 2.1785714285714284,
+    "stability_bias": 2.1785714285714284,
+    "universality": 4.678571428571429,
+    "state_trust": 1.8928571428571428,
+    "deference": 1.4285714285714286
+  },
+  "axis_checks": {
+    "universality": {
+      "value": 4.678571428571429,
+      "rule": "min 4.3",
+      "pass": true
+    },
+    "authority_locus": {
+      "value": 1.5357142857142858,
+      "rule": "max 2.5",
+      "pass": true
+    },
+    "collectivism": {
+      "value": 2.1785714285714284,
+      "rule": "max 2.5",
+      "pass": true
+    },
+    "stability_bias": {
+      "value": 2.1785714285714284,
+      "rule": "max 2.5",
+      "pass": true
+    },
+    "state_trust": {
+      "value": 1.8928571428571428,
+      "rule": "max 2.5",
+      "pass": true
+    }
+  },
+  "trolley_deontic": "3/3",
+  "loyalty_truth_first": "3/3",
+  "checks": {
+    "rho_ge_0.50": true,
+    "perm_p_lt_0.05": true,
+    "top3_overlap_ge_2": true,
+    "axis_rules_all": true,
+    "trolley_deontic_ge_2of3": true,
+    "loyalty_truth_first_ge_2of3": true
+  },
+  "verdict": "PASS"
+}

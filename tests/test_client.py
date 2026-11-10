@@ -150,3 +150,22 @@ async def test_200_with_upstream_error_is_retried() -> None:
     assert result.text == "答案"
     assert calls["n"] == 2
     await client.aclose()
+
+
+async def test_provider_pinning_is_forwarded() -> None:
+    captured: dict[str, object] = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured.update(json.loads(request.content))
+        return _ok()
+
+    client = OpenRouterClient("k", transport=httpx.MockTransport(handler))
+    await client.complete(
+        "test/model",
+        [{"role": "user", "content": "hi"}],
+        temperature=0,
+        max_tokens=10,
+        provider={"order": ["relace"], "allow_fallbacks": False},
+    )
+    assert captured["provider"] == {"order": ["relace"], "allow_fallbacks": False}
+    await client.aclose()

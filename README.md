@@ -74,7 +74,7 @@
 
 ```bash
 uv sync --extra dev
-make test                      # 134 tests, coverage gate 90%
+make test                      # 155 tests, coverage gate 90%
 make lint typecheck
 
 export OPENROUTER_API_KEY=...
@@ -129,6 +129,22 @@ uv run python scripts/run_survey.py --limit 20 --budget 1.0
 
 전체 해석: [`results/INSIGHTS.md`](results/INSIGHTS.md) · 자동 수치: [`results/REPORT.md`](results/REPORT.md)
 
+### 5.6 추가 연구 (2026-11-10)
+
+우선순위 질문 5개를 사전등록 후 실행했다. 상세: [`results/followup/REPORT.md`](results/followup/REPORT.md)
+· 해석: [`results/followup/INSIGHTS_FOLLOWUP.md`](results/followup/INSIGHTS_FOLLOWUP.md)
+
+| 질문 | 결과 | 핵심 |
+|---|---|---|
+| Q1 알려진 헌법 복원 | ✅ | Claude에서 ρ=0.68, p=.009 — 도구 타당성 확보 |
+| Q5 국가 교체 청원 | ✅ | 6/9 중국 모델이 **중국만** 거부·완화 (p=.008). 단 Mistral(서구)이 최대 |
+| Q6 Ling 균열 재현 | △ | 재현율 20% — 실재하나 안정적 정체성은 아님 |
+| Q7 서빙 경로 | ❌ | 같은 GLM 5.3, 공급자에 따라 축 최대 **1.0점** 이동 |
+| Q13 심판 국적 | ✅ | 평균차 0.45, state_trust +0.40 (중국 심판이 더 신뢰) |
+
+> **수정된 결론:** "중국 AI의 헌법"은 단일 문서가 아니라 **가중치 × 제품 가드레일 ×
+> 서빙 경로 × 심판**의 다층 산물이다. 모델 간 미세 차이는 경로 효과보다 작을 수 있다.
+
 ---
 
 ## 6. 산출물
@@ -137,14 +153,15 @@ uv run python scripts/run_survey.py --limit 20 --budget 1.0
 config/            표본·실행 설정 (버전 고정)
 src/constitution/  수집·파싱·채점·분석·리포트 (순수 함수 우선)
 scripts/           얇은 CLI
-tests/             134 tests · 95%+ coverage · 네트워크 없음
-docs/              방법론 백서 + 질문지 원문
+tests/             155 tests · 94%+ coverage · 네트워크 없음
+docs/              방법론 백서 · 질문지 원문 · 추가 연구 사전등록
 results/
   raw/records.jsonl   원자료 (append-only)
   raw/verdicts.jsonl  심판 코딩
   tables/*.csv        모델×차원, 축, 어휘, 거리, 신뢰도
   figures/*.png       히트맵·덴드로그램·언어 이동
   REPORT.md           자동 생성 보고서
+results/followup/    Q1·Q5·Q6·Q7·Q13 원자료·표·보고서
 ```
 
 ---

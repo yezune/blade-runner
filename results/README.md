@@ -18,6 +18,9 @@
 | `figures/*.png` | 가치 히트맵, 군집 덴드로그램, 축 히트맵, 언어 이동, 어휘 지형 | `make report` |
 | `REPORT.md` | 자동 생성 보고서 (수치·표·그림) | `make report` |
 | `INSIGHTS.md` | 사람이 쓴 해석 (자동 보고서와 분리) | 수동 |
+| `followup/REPORT.md` | 추가 연구(Q1·Q5·Q6·Q7·Q13) 사전등록 판정 | `scripts/make_followup_report.py` |
+| `followup/INSIGHTS_FOLLOWUP.md` | 추가 연구 해석 | 수동 |
+| `followup/*/summary.json` | 질문별 판정·효과크기 | `scripts/analyze_followup.py` |
 
 ## 읽는 순서
 
