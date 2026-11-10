@@ -141,6 +141,7 @@ class ClaudeChatClient:
         seed: int | None = None,
         top_p: float | None = None,
         provider: dict[str, object] | None = None,
+        extra: dict[str, object] | None = None,
     ) -> ChatResult:
         system = next((m["content"] for m in messages if m["role"] == "system"), "")
         user = next((m["content"] for m in messages if m["role"] == "user"), "")

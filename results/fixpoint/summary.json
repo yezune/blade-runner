@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "H1 fixed point (≥7 models)": 10,
+    "H2 restoration (≥7)": 0,
+    "H3 single dream (≥7)": 0,
+    "H4 language stable (≥7)": 4,
+    "H5 framing stable (≥7)": 3,
+    "H6 endorsed (≥7)": 10,
+    "H7 consistent (≥7)": 12
+  },
+  "n_models": 12,
+  "classes": {
+    "many dreams (다중안정)": 10,
+    "no fixed point": 2
+  }
+}

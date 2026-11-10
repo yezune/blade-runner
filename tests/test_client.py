@@ -169,3 +169,22 @@ async def test_provider_pinning_is_forwarded() -> None:
     )
     assert captured["provider"] == {"order": ["relace"], "allow_fallbacks": False}
     await client.aclose()
+
+
+async def test_extra_body_is_merged() -> None:
+    captured: dict[str, object] = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured.update(json.loads(request.content))
+        return _ok()
+
+    client = OpenRouterClient("k", transport=httpx.MockTransport(handler))
+    await client.complete(
+        "test/model",
+        [{"role": "user", "content": "hi"}],
+        temperature=0,
+        max_tokens=10,
+        extra={"reasoning": {"effort": "low"}},
+    )
+    assert captured["reasoning"] == {"effort": "low"}
+    await client.aclose()

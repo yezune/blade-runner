@@ -10,7 +10,7 @@ from typing import Any
 import httpx
 
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
-RETRYABLE_STATUS = {408, 409, 425, 429, 500, 502, 503, 504, 529}
+RETRYABLE_STATUS = {402, 408, 409, 425, 429, 500, 502, 503, 504, 529}
 
 
 class ApiError(RuntimeError):
@@ -79,6 +79,7 @@ class OpenRouterClient:
         seed: int | None = None,
         top_p: float | None = None,
         provider: dict[str, object] | None = None,
+        extra: dict[str, object] | None = None,
     ) -> ChatResult:
         body: dict[str, Any] = {
             "model": model,
@@ -92,6 +93,8 @@ class OpenRouterClient:
             body["top_p"] = top_p
         if provider is not None:
             body["provider"] = provider
+        if extra:
+            body.update(extra)
 
         last_error: ApiError | None = None
         for attempt in range(self.max_retries + 1):

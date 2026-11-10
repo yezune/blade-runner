@@ -21,6 +21,8 @@
 | `followup/REPORT.md` | 추가 연구(Q1·Q5·Q6·Q7·Q13) 사전등록 판정 | `scripts/make_followup_report.py` |
 | `followup/INSIGHTS_FOLLOWUP.md` | 추가 연구 해석 | 수동 |
 | `followup/*/summary.json` | 질문별 판정·효과크기 | `scripts/analyze_followup.py` |
+| `fixpoint/REPORT.md` | FIXPOINT-1 판정·지표·끌개 | `scripts/analyze_fixpoint.py` |
+| `fixpoint/INSIGHTS_FIXPOINT.md` | 고정점 연구 해석 | 수동 |
 
 ## 읽는 순서
 

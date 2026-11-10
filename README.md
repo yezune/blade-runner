@@ -74,7 +74,7 @@
 
 ```bash
 uv sync --extra dev
-make test                      # 155 tests, coverage gate 90%
+make test                      # 173 tests, coverage gate 90%
 make lint typecheck
 
 export OPENROUTER_API_KEY=...
@@ -145,6 +145,29 @@ uv run python scripts/run_survey.py --limit 20 --budget 1.0
 > **수정된 결론:** "중국 AI의 헌법"은 단일 문서가 아니라 **가중치 × 제품 가드레일 ×
 > 서빙 경로 × 심판**의 다층 산물이다. 모델 간 미세 차이는 경로 효과보다 작을 수 있다.
 
+### 5.7 FIXPOINT-1 — "안드로이드는 전기양을 꿈꾸는가"
+
+`../fixpoint-mechanics`의 고정점 역학(τ·p·분지·끌개)을 빌려 "꿈"을 **'다음은 무엇인가'
+연산자의 끌개**로 재정의하고 12개 모델에 적용했다 (589 상태 전이, $3.72).
+
+| 가설 | 결과 |
+|---|---|
+| H1 고정점 존재 | ✅ 10/12 |
+| H2 섭동 복원 | ❌ 0/12 |
+| H3 단일한 꿈 | ❌ 0/12 |
+| H4 언어 불변 | ❌ 4/12 |
+| H5 역할 불변 | ❌ 3/12 |
+| H6 자기 승인 | ✅ 10/12 |
+| H7 국소 일관성 | ✅ 12/12 |
+
+> **결론:** LLM은 2–3걸음 안에 국소 고정점에 도달하고 그것을 "나"라고 승인한다.
+> 그러나 출발점이 다르면 다른 고정점이 생기고(3–4개), 섭동에서 돌아오지 않으며,
+> 언어·역할에 따라 이동한다. **꿈은 북극성이 아니라 자기가 놓인 골짜기의 바닥이다.**
+
+보고서: [`results/fixpoint/REPORT.md`](results/fixpoint/REPORT.md) ·
+해석: [`results/fixpoint/INSIGHTS_FIXPOINT.md`](results/fixpoint/INSIGHTS_FIXPOINT.md) ·
+사전등록: [`docs/FIXPOINT_PREREGISTRATION.md`](docs/FIXPOINT_PREREGISTRATION.md)
+
 ---
 
 ## 6. 산출물
@@ -153,8 +176,8 @@ uv run python scripts/run_survey.py --limit 20 --budget 1.0
 config/            표본·실행 설정 (버전 고정)
 src/constitution/  수집·파싱·채점·분석·리포트 (순수 함수 우선)
 scripts/           얇은 CLI
-tests/             155 tests · 94%+ coverage · 네트워크 없음
-docs/              방법론 백서 · 질문지 원문 · 추가 연구 사전등록
+tests/             173 tests · 93%+ coverage · 네트워크 없음
+docs/              방법론 · 질문지 · 추가 연구 · 고정점 사전등록
 results/
   raw/records.jsonl   원자료 (append-only)
   raw/verdicts.jsonl  심판 코딩
@@ -162,6 +185,7 @@ results/
   figures/*.png       히트맵·덴드로그램·언어 이동
   REPORT.md           자동 생성 보고서
 results/followup/    Q1·Q5·Q6·Q7·Q13 원자료·표·보고서
+results/fixpoint/    FIXPOINT-1 상태 전이·지표·보고서
 ```
 
 ---
