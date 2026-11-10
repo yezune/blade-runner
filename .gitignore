@@ -10,3 +10,5 @@ results/**/*.jsonl
 .mypy_cache/
 .ruff_cache/
 .DS_Store
+dist/
+build/

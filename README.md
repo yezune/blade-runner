@@ -216,7 +216,27 @@ results/fixpoint/    FIXPOINT-1 상태 전이·지표·보고서
 
 ---
 
-## 9. 인용
+## 9. 라이선스
+
+이 저장소의 코드·문서·그림은 **Apache License 2.0**으로 배포됩니다.
+전문은 [`LICENSE`](LICENSE), 저작권 고지는 [`NOTICE`](NOTICE)에 있습니다.
+
+```
+Copyright 2026 Blade Runner contributors
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+```
+
+> 수집된 모델 출력(`results/raw/*.jsonl`)은 각 모델 제공자의 이용약관도 함께 적용될 수 있습니다.
+> 재사용 시 해당 약관을 확인하세요.
+
+---
+
+## 10. 인용
 
 ```
 Blade Runner (2026). Constitutional archaeology of Chinese frontier language models.
